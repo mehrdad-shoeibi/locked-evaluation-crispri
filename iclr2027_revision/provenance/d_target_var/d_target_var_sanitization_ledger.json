@@ -1,0 +1,20 @@
+{
+ "SOURCE_EXTERNAL_ARTIFACT": "d_target_var_results.json",
+ "SOURCE_EXTERNAL_ARTIFACT_SHA256": "5c3fce5729d7bb2a0c53c2a4b15f2e9a4623da050493ba7f14921e288fcdf218",
+ "SANITIZED_DERIVED_ARTIFACT": "iclr2027_revision/provenance/d_target_var/d_target_var_results.sanitized.json",
+ "SANITIZED_DERIVED_ARTIFACT_SHA256": "9d151d5ce4282379fe920fd1d811c609c71c932c1cba40213306811405a13936",
+ "SANITIZATION_PERFORMED": "YES",
+ "SANITIZATION_SCOPE": "absolute filesystem paths and local username only",
+ "SANITIZED_DIFF_LINE_COUNT": 1,
+ "NO_NUMERIC_OR_HASH_LINE_ALTERED": "YES",
+ "INVARIANCE_METHOD": "residual equality + hash-token and numeric-token sequence equality",
+ "SANITIZATION_LEDGER": [
+  {
+   "SANITIZED_CHANGE_INDEX": 1,
+   "SOURCE_LINE_NUMBER_OR_FIELD": 9,
+   "SOURCE_LINE_SHA256": "369ff06a825621ef094e42a0bb7e35b792f0043b6c63911a8ab0cf0f27d8ab6c",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": " \"TARGET_SOURCE_PATH\": \"<B-STORAGE>/MADA/data/metadata/vcc/final_labels.parquet\","
+  }
+ ]
+}

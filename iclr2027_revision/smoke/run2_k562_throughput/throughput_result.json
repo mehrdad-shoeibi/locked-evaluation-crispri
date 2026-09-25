@@ -1,0 +1,119 @@
+{
+  "ingestion": {
+    "var_gene_id_is_ensembl": true,
+    "n_genes": 8563,
+    "obs_has_gene": true,
+    "obs_has_gene_transcript": true,
+    "obs_has_gem_group": true,
+    "n_cells_total": 310385,
+    "nt_pool_size": 10691,
+    "counts_nonneg": true,
+    "counts_integer_valued": true,
+    "constructs_join_eligible": true,
+    "selected_constructs": [
+      "10023_ZC3H18_P1P2_ENSG00000158545",
+      "10040_ZCCHC9_P1P2_ENSG00000131732",
+      "10041_ZCRB1_P1P2_ENSG00000139168",
+      "1004_C17orf58_P1P2_ENSG00000186665",
+      "10073_ZFC3H1_P1P2_ENSG00000133858",
+      "10135_ZMAT2_P2_ENSG00000146007",
+      "10136_ZMAT2_P1_ENSG00000146007",
+      "10139_ZMAT5_P1P2_ENSG00000100319",
+      "10152_ZNF100_P1P2_ENSG00000197020",
+      "1016_C19orf25_P1P2_ENSG00000119559",
+      "10201_ZNF207_P2_ENSG00000010244",
+      "10202_ZNF207_P1_ENSG00000010244",
+      "1022_C19orf53_P1P2_ENSG00000104979",
+      "10236_ZNF24_P1P2_ENSG00000172466",
+      "10280_ZNF317_P1P2_ENSG00000130803",
+      "10297_ZNF335_P1P2_ENSG00000198026",
+      "1029_C1D_P1P2_ENSG00000197223",
+      "1032_C1QBP_P1P2_ENSG00000108561",
+      "1035_C1orf109_P1_ENSG00000116922",
+      "1036_C1orf109_P2_ENSG00000116922"
+    ],
+    "n_perturbed_selected": 2626,
+    "n_nt_selected": 3374,
+    "n_total_selected": 6000
+  },
+  "startup_sec": 0.509899377822876,
+  "per_chunk": [
+    {
+      "chunk": 0,
+      "n": 1200,
+      "tok_sec": 5.7868757247924805,
+      "emb_sec": 156.49189949035645,
+      "cells_per_sec": 7.668128535138319,
+      "finite": true,
+      "shape": [
+        1200,
+        768
+      ]
+    },
+    {
+      "chunk": 1,
+      "n": 1200,
+      "tok_sec": 6.740264177322388,
+      "emb_sec": 156.38297772407532,
+      "cells_per_sec": 7.673469436790618,
+      "finite": true,
+      "shape": [
+        1200,
+        768
+      ]
+    },
+    {
+      "chunk": 2,
+      "n": 1200,
+      "tok_sec": 6.699369192123413,
+      "emb_sec": 157.2116618156433,
+      "cells_per_sec": 7.633021533779082,
+      "finite": true,
+      "shape": [
+        1200,
+        768
+      ]
+    },
+    {
+      "chunk": 3,
+      "n": 1200,
+      "tok_sec": 6.702455520629883,
+      "emb_sec": 156.84986925125122,
+      "cells_per_sec": 7.650627990500715,
+      "finite": true,
+      "shape": [
+        1200,
+        768
+      ]
+    },
+    {
+      "chunk": 4,
+      "n": 1200,
+      "tok_sec": 6.804264783859253,
+      "emb_sec": 157.41745710372925,
+      "cells_per_sec": 7.623042717614651,
+      "finite": true,
+      "shape": [
+        1200,
+        768
+      ]
+    }
+  ],
+  "steady_state_cells_per_sec_median": 7.6418247621398985,
+  "steady_state_p05": 7.624539540039316,
+  "steady_state_p95": 7.670043219847132,
+  "naive_end_to_end_cells_per_sec": 7.3431584445569,
+  "n_steady_chunks": 4,
+  "total_cells": 6000,
+  "determinism_max_abs_diff": 0.0,
+  "emb_bytes_per_cell": 3072,
+  "output_shape_dim": 768,
+  "all_finite": true,
+  "unique_cell_ids": 6000,
+  "gpu": "cuda:1 (single, NVIDIA TITAN RTX)",
+  "rate_is": "single-GPU",
+  "peak_vram_bytes": 8566776832,
+  "peak_vram_reserved_bytes": 13272875008,
+  "transformers": "4.49.0",
+  "torch": "2.3.1+cu121"
+}

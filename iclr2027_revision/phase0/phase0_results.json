@@ -1,0 +1,158 @@
+{
+  "a_hvg_guard": {
+    "provenance": {
+      "K562_delta_hvg": 1430,
+      "K562_hvg_genes": 1460,
+      "RPE1_delta_hvg": 1550,
+      "RPE1_hvg_genes": 1574
+    },
+    "verdict": "DELTA_HVG_CONFIRMED",
+    "guard_raises_3of3": true,
+    "authoritative_ok": true
+  },
+  "c_bridge": {
+    "rows_z": 11764,
+    "rows_labels": 14274,
+    "matched": 11764,
+    "z_orphans": 0,
+    "label_only_rows": 2510,
+    "dup_keys_z": 0,
+    "dup_keys_labels": 0,
+    "splits": {
+      "training": 5740,
+      "test": 3972,
+      "validation": 2052
+    },
+    "z_all_finite": true,
+    "z_dim": 768,
+    "label_alignment_max_abs_diff": 0.0,
+    "label_col": "y_ad_distance_log1p",
+    "forbidden_label_not_used": "ad_stat_mean",
+    "assert_pass": true
+  },
+  "c_z_form": {
+    "vcc": "delta (mean(E_pert) - mean(E_batchlocal_NT))",
+    "external": "delta (mean(E) - mean(E_globalNT))",
+    "same_subtraction": true,
+    "layer": "emb_layer=-1 both",
+    "pooling": "CLS both",
+    "compute_dtype": "float32 both",
+    "nt_convention": {
+      "VCC": "batch-local per (batch)",
+      "RPE1": "global 11485",
+      "K562": "global 10691"
+    },
+    "forms_consistent": true
+  },
+  "b_m_tilde": {
+    "oracle": {
+      "max": 4.5299530029296875e-06,
+      "mean": 1.9354142944412128e-07,
+      "median": 8.500145032286355e-17,
+      "p95": 9.5367431640625e-07,
+      "p99": 3.850460052490232e-06,
+      "gt_1e-12": 42,
+      "gt_1e-10": 42,
+      "gt_1e-8": 34,
+      "post_zscore_max": 1.3113021850585938e-06,
+      "reference_dtype": "float32-derived (verify_magnitude.py)",
+      "verdict": "NUMERICALLY_EQUIVALENT"
+    },
+    "m3_pre_zscore_constant_observed": 44.72136306762695,
+    "sqrt_d": 44.721359549995796,
+    "m3_post_zscore_col1_max_abs_diff": 1.9073486328125e-06,
+    "linf_max_per_screen": {
+      "train": 2.765005350112915,
+      "val": 2.2628836631774902,
+      "test": 2.1207525730133057,
+      "RPE1": 10.0,
+      "K562": 10.0
+    },
+    "nonfinite_repaired": {
+      "VCC": 0,
+      "RPE1": 0,
+      "K562": 0
+    },
+    "all_inputs_finite": true,
+    "externals": {
+      "RPE1": {
+        "n_nonfinite_repaired": 0,
+        "all_finite_input": true,
+        "m_tilde_finite": true,
+        "linf_max": 10.0,
+        "n_rows": 2679
+      },
+      "K562": {
+        "n_nonfinite_repaired": 0,
+        "all_finite_input": true,
+        "m_tilde_finite": true,
+        "linf_max": 10.0,
+        "n_rows": 2285
+      }
+    },
+    "source": "x_release (no m\u0303(x_cell) variant exists)"
+  },
+  "d_scaler": {
+    "near_constant_coords_z": 0,
+    "train_transformed_mean_abs": 7.974977123126337e-09,
+    "train_transformed_std_dev_from_1": 5.960464477539063e-08,
+    "val_transformed_not_zero_mean": true,
+    "fitted_on": "VCC train only"
+  },
+  "e_controls": {
+    "c1_reproducible": true,
+    "c5_reproducible": true,
+    "c3_reproducible": true,
+    "c2_matrix_identical_redraw": true,
+    "c2_matrix_same_across_splits": true,
+    "c3_is_permutation": true,
+    "c1_shape": [
+      5740,
+      768
+    ],
+    "c4_shape": [
+      5740,
+      772
+    ],
+    "c5_shape": [
+      5740,
+      772
+    ],
+    "c2_feat_shape": [
+      5740,
+      768
+    ],
+    "leakage_guard": "all stochastic controls generated from array shapes only; no y, no val/test stats",
+    "c2_identical_across_splits_on_probe": true
+  },
+  "f_bootstrap": {
+    "vcc_B": 10000,
+    "vcc_seed": 42,
+    "vcc_ci_finite": true,
+    "vcc_n_replicates": 10000,
+    "ext_B": 10000,
+    "ext_seeds": {
+      "RPE1": 20260901,
+      "K562": 20260902
+    },
+    "ext_rho_boot_shape": [
+      10000,
+      3
+    ],
+    "ext_contrast_ci_finite": true,
+    "wired": true,
+    "note": "verified on synthetic inputs of correct shape; no model predictions exist"
+  },
+  "g_heads": {
+    "ridge": "Ridge(alpha=1.0)",
+    "ridge_scale": true,
+    "rf": "n_estimators=200,max_depth=20,min_samples_leaf=2,n_jobs=8",
+    "hgb": "max_iter=500,max_depth=6,lr=0.05,l2=0.0,es=True,vf=0.1,nic=20",
+    "spsm_z_input": 768,
+    "spsm_zm_input": 772,
+    "spsm_rep_width_z": 256,
+    "spsm_rep_width_zm": 256,
+    "spsm_width_is_256": true,
+    "fit_called": false
+  }
+}

@@ -1,0 +1,90 @@
+{
+ "guards": [
+  {
+   "guard": "A_scaler_refit_forbidden_api",
+   "expected": "PhaseBError from phaseB_preprocessing.refit_forbidden",
+   "observed": "PhaseBError: A10: Phase-B scientific runners must LOAD canonical scaler state, never refit.",
+   "result": "PASS"
+  },
+  {
+   "guard": "B_direct_standardscaler_fit_increments_counter",
+   "expected": "counter increments >=1",
+   "observed": "True",
+   "result": "PASS"
+  },
+  {
+   "guard": "B_direct_standardscaler_fit_transform_increments_counter",
+   "expected": "counter increments >=1",
+   "observed": "True",
+   "result": "PASS"
+  },
+  {
+   "guard": "B_direct_ridge_fit_increments_counter",
+   "expected": "counter increments >=1",
+   "observed": "True",
+   "result": "PASS"
+  },
+  {
+   "guard": "boundary_test_split_rejected",
+   "expected": "PhaseBError before any test file opened",
+   "observed": "PhaseBError: FORBIDDEN SPLIT REQUESTED: 'test' - D-MECH is train/validation only",
+   "result": "PASS"
+  },
+  {
+   "guard": "boundary_project_a_rejected",
+   "expected": "PhaseBError on Project-A path",
+   "observed": "PhaseBError: BOUNDARY VIOLATION: probe resolves inside Project-A root <EXT-MOUNT>/IGA_NeurIPS: <EXT-MOUNT>/IGA_NeurIPS/x",
+   "result": "PASS"
+  },
+  {
+   "guard": "forbidden_outcome_column_rejected",
+   "expected": "PhaseBError naming the column",
+   "observed": "PhaseBError: forbidden outcome column requested: y_ad_distance_log1p",
+   "result": "PASS"
+  },
+  {
+   "guard": "exact_tie_selects_largest_alpha",
+   "expected": "alpha=100.0 tie_applied=True",
+   "observed": "True",
+   "result": "PASS"
+  },
+  {
+   "guard": "mixed_nonfinite_finite_wins",
+   "expected": "selected_alpha=1.0",
+   "observed": "True",
+   "result": "PASS"
+  },
+  {
+   "guard": "all_nonfinite_probe_degenerate",
+   "expected": "status=PROBE_DEGENERATE",
+   "observed": "True",
+   "result": "PASS"
+  },
+  {
+   "guard": "duplicate_keys_rejected",
+   "expected": "PhaseBError duplicate keys",
+   "observed": "PhaseBError: duplicate keys in synthetic",
+   "result": "PASS"
+  },
+  {
+   "guard": "target_eligibility_violation_rejected",
+   "expected": "PhaseBError n_perturbed_cells<10",
+   "observed": "PhaseBError: HARD_STOP_TARGET_ELIGIBILITY_VIOLATION: 1 rows with n_perturbed_cells<10",
+   "result": "PASS"
+  },
+  {
+   "guard": "existing_output_dir_rejected",
+   "expected": "FileExistsError",
+   "observed": "FileExistsError: [Errno 17] File exists: '<PHASEB-OUT>/phaseB/dmech_tv_20260829T212338Z_64e44afe'",
+   "result": "PASS"
+  }
+ ],
+ "STANDARD_SCALER_FIT_CALL_COUNT_SYNTHETIC_GUARDS": 1,
+ "STANDARD_SCALER_FIT_TRANSFORM_COUNT_SYNTHETIC_GUARDS": 1,
+ "RIDGE_FIT_COUNT_SYNTHETIC_GUARDS": 1,
+ "STANDARD_SCALER_INSTRUMENTATION_VERIFIED": "YES",
+ "RIDGE_FIT_COUNT_AT_PROJECT_IMPORT": 0,
+ "STANDARD_SCALER_FIT_COUNT_AT_PROJECT_IMPORT": 0,
+ "STANDARD_SCALER_FIT_TRANSFORM_COUNT_AT_PROJECT_IMPORT": 0,
+ "COUNTER_OBJECT_ID": 126598714263264
+}

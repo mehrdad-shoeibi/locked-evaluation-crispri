@@ -1,0 +1,127 @@
+{
+  "session": "L12",
+  "z_oracle": {
+    "K562": "EXACT(0.0)",
+    "RPE1": "EXACT 1889 / 1.9e-6 topup43",
+    "VCC": "EXACT(0.0, 350 constructs)",
+    "overall": "NUMERICALLY_EQUIVALENT"
+  },
+  "x_recipe_check": {
+    "K562": "0.0",
+    "RPE1": "1.26e-2 (embedding vs checkpoint cell-set diff, disclosed)",
+    "VCC": "full-cell median ||x||2 ~3.03-3.47 sample vs 3.12 ref"
+  },
+  "raw_l2_median": {
+    "all_cells": {
+      "K562": 2.2,
+      "VCC": 3.12,
+      "RPE1": 4.37
+    },
+    "n10": {
+      "VCC": 4.26,
+      "K562": 4.9,
+      "RPE1": 6.32
+    },
+    "n27": {
+      "VCC": 2.75,
+      "K562": 3.2,
+      "RPE1": 4.9
+    }
+  },
+  "ordering": {
+    "all_cells": "K562<VCC<RPE1",
+    "n10": "VCC<K562<RPE1",
+    "n27": "VCC<K562<RPE1",
+    "verdict": "CHANGES_AT_N"
+  },
+  "znorm_median": {
+    "all_cells": {
+      "K562": 0.063,
+      "VCC": 0.07,
+      "RPE1": 0.111
+    },
+    "n10": {
+      "VCC": 0.103,
+      "K562": 0.116,
+      "RPE1": 0.153
+    },
+    "n27": {
+      "VCC": 0.065,
+      "K562": 0.082,
+      "RPE1": 0.124
+    }
+  },
+  "retention": {
+    "n10": {
+      "VCC": "5740/0",
+      "RPE1": "1932/0",
+      "K562": "1903/0"
+    },
+    "n27": {
+      "VCC": "2843/2897",
+      "RPE1": "1932/0",
+      "K562": "1903/0"
+    }
+  },
+  "retained_vs_full_n27": {
+    "VCC": "full med26 IQR[18,40] -> retained med40 IQR[32,50]",
+    "RPE1": "med76 IQR[50,118] (no selection)",
+    "K562": "med118 IQR[79,174] (no selection)"
+  },
+  "vcc_diag": {
+    "corr_ncells_y": {
+      "train_val": 0.7045,
+      "train": 0.6699,
+      "n": 7792
+    },
+    "corr_ncells_mtilde_train": [
+      -0.716,
+      -0.663,
+      -0.27,
+      -0.663
+    ],
+    "corr_ncells_mtilde_trainval": [
+      -0.719,
+      -0.663,
+      -0.22,
+      -0.663
+    ],
+    "mtilde_y_pooled": {
+      "mean|x|": -0.553,
+      "||x||2": -0.472,
+      "max|x|": 0.107,
+      "sigma": -0.472
+    },
+    "mtilde_y_quintiles": {
+      "mean|x|": [
+        0.009,
+        -0.035,
+        -0.091,
+        -0.079,
+        -0.308
+      ],
+      "||x||2": [
+        0.068,
+        0.063,
+        0.037,
+        0.092,
+        -0.053
+      ],
+      "max|x|": [
+        0.3,
+        0.456,
+        0.484,
+        0.534,
+        0.464
+      ],
+      "sigma": [
+        0.068,
+        0.063,
+        0.037,
+        0.093,
+        -0.052
+      ]
+    },
+    "survives": "PARTLY (mean|x|,||x||2,sigma collapse; max|x| survives+strengthens, opposite sign)"
+  }
+}

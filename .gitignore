@@ -1,0 +1,65 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+*.swp
+.vscode/
+.idea/
+# Data and results are external, never in this repo
+
+# --- ICLR2027 revision: data arrays / model & data formats ---
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.parquet
+*.pt
+*.ckpt
+*.h5ad
+*.arrow
+*.safetensors
+*.bin
+
+# --- Generated per-seed cell-id lists (any depth) ---
+*_cellids.json
+
+# --- LaTeX build byproducts (regenerable) ---
+*.aux
+*.blg
+*.bbl
+*.out
+*.log
+*.stderr
+*.synctex.gz
+
+# --- Archives (keep unpacked source, not the zip) ---
+*.zip
+
+# --- Local pre-edit manuscript backups (duplicate snapshots; keep local only) ---
+*.pre_*_backup
+
+# --- Stale-directory markers (contain machine-local absolute paths; keep local only) ---
+STALE_DO_NOT_EDIT.txt
+
+# per-copy storage binding (machine/copy-specific; not shared)
+storage_root.txt
+
+# --- Phase-B canonical scaler state (A10 §4): narrow re-inclusion ---
+# These are small version-independent StandardScaler state arrays (mean_/scale_/var_/
+# n_samples_seen_), not data arrays. A10 requires Phase-B runners to LOAD them rather than
+# refit, so they must be under version control. The general *.npz rule (line 14) is unchanged.
+!iclr2027_revision/provenance/phaseB_baseline/*.npz
+
+# --- Part-1 external prediction artifact used by A7 provenance ---
+# A7 reuses this persisted prediction artifact; track this exact historical
+# artifact without changing the repository-wide *.npz policy.
+!iclr2027_revision/phase4/phase4_ext_predictions.npz
+
+# --- Regenerable Overleaf packaging directories (rebuilt from v7/ on demand) ---
+iclr2027_revision/ICLR2027_Overleaf_FINAL_*/
+
+# --- Extracted incoming manuscript build (tracked explicitly where required) ---
+incoming_latest/

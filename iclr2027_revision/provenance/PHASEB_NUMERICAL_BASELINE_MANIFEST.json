@@ -1,0 +1,313 @@
+{
+ "RUN_TYPE": "PHASEB_NUMERICAL_BASELINE_RESET",
+ "run_id": "phaseB_reset_20260829T071326Z_7d9923555790",
+ "utc": "2026-08-29T07:17:45Z",
+ "git_branch": "iclr2027-r2",
+ "git_commit_before_reset": "8666e25de1a311dd7b22bad8096efe429bd15565",
+ "git_commit_forensic_record": "7d9923555790483fe61c18e69a2aa0aefe984056",
+ "baseline_reset_commit": "08fd1985a41e6a96bd73f3b9188491da2a999b12",
+ "phaseb_scaler_artifact_tracking_commit": "d4618d524f2f0bfef5895e619a544bd362718228",
+ "operational_scaler_artifacts_git_tracked": true,
+ "commit_identification_note": "Current manifest revisions are identified by Git history rather than by a self-embedded current commit hash.",
+ "A10": {
+  "path": "iclr2027_revision/experiment_specs/lock_amendment_A10_phaseB_numerical_baseline.md",
+  "sha256": "0d4fb9b270b04e59a9430da0f9bc1de9f802b6337c18d02ecf06529352b942a0"
+ },
+ "forensic_record": {
+  "path": "iclr2027_revision/provenance/PHASEB_SCALER_FORENSIC_FINDING_2026-08-29.md",
+  "sha256": "4d42fc93eee537502d21802e3cfd033072b223ac855dc8ce328be0b879e6d2ea"
+ },
+ "environment_artifact": {
+  "method": "venv + fully pinned transitively-closed pip requirements; BLAS carried in the NumPy wheel",
+  "files": {
+   "phaseB_requirements_locked.txt": "6f1881604a6026792ef8f56568f58e37c164ea691b5937e2c0f1abdf8335a17f",
+   "phaseB_environment_README.md": "d676cc4699e40ba6191d5130ae018263a10d8291bd4b9cb46938dc6a604bfb03"
+  },
+  "pinned_interpreter": "Python 3.13.12 (conda-forge, GCC 14.3.0)",
+  "pinned_pip": "25.3",
+  "REBUILD_FROM_LOCK_ARTIFACT": true,
+  "REBUILD_ENV_PATH": "/home/mehrdad/iclr2027_phaseB_out/environment_verification/phaseB_reset_20260829T071326Z_7d9923555790/_env_lockrebuild",
+  "REBUILD_ENV_PYTHON": "3.13.12",
+  "REBUILD_ENV_PACKAGE_VERSIONS": {
+   "python": "3.13.12",
+   "numpy": "2.4.4",
+   "sklearn": "1.9.0",
+   "scipy": "1.17.1"
+  },
+  "frozen_set_identical_to_lock": true
+ },
+ "preprocessing_module": {
+  "path": "iclr2027_revision/pipeline/phaseB_preprocessing.py",
+  "sha256": "39063e4a0ec7e4af097597837dc9dc95c4839c9e21b6aa5e2ab08d9520dd07cb"
+ },
+ "cpu": {
+  "arch": "x86_64",
+  "model": "Intel i9-9900K, 8C/16T @3.6GHz (docs/ENV_AND_ARTIFACT_MAP.md:66)"
+ },
+ "hostname_PRIVATE_LOCAL_PROVENANCE_ONLY": "titans",
+ "thread_policy": {
+  "requested": {
+   "OMP_NUM_THREADS": "1",
+   "OPENBLAS_NUM_THREADS": "1",
+   "MKL_NUM_THREADS": "1",
+   "VECLIB_MAXIMUM_THREADS": "1",
+   "NUMEXPR_NUM_THREADS": "1"
+  },
+  "realized": [
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "prefix": "libscipy_openblas",
+    "filepath": "/home/mehrdad/iclr2027_phaseB_out/phaseB/phaseB_reset_20260829T071326Z_7d9923555790/_env_baseline/lib/python3.13/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so",
+    "version": "0.3.31.188.0",
+    "threading_layer": "pthreads",
+    "architecture": "Haswell"
+   }
+  ],
+  "check": "PASS"
+ },
+ "canonical_inputs": {
+  "canonical_row_order": "sorted(glob(shards/train/*.npz)) then stored sample_ids order",
+  "canonical_key": "(split, batch_name, sample_id) == bridge (split, batch, target_gene)",
+  "TRAIN_SHARDS": 48,
+  "TRAIN_ROWS": 5740,
+  "SHARD_KEYS_UNIQUE": true,
+  "BRIDGE_TRAIN_KEYS_UNIQUE": true,
+  "KEY_SET_EQUAL": true,
+  "MISSING_KEYS": 0,
+  "EXTRA_KEYS": 0,
+  "PHYSICAL_BRIDGE_SEQUENCE_EQUAL": true,
+  "PHASEB_X_TRAIN_PROJECTION_SHA256": "35b7874de691cecd981d617c1253e88e4682fbd25617b59bea0ec7f692bf2800",
+  "PHASEB_Z_TRAIN_PROJECTION_SHA256": "4d34b8c45ebb06ed3f0390e04789db38b2f6982fd23562e5c24554ae0e5658dd",
+  "PHASEB_C2_PROJECTION_MATRIX_SHA256": "e5bf7ce0f07cd68d73c41529b7f01441b1b5a6f9193d663bc28bc6f974d8f41a",
+  "PHASEB_C2_TRAIN_PROJECTION_SHA256": "069f5c1b60dfbf1dc7e08080a07d7caf45e5da7e8a100b9084117659972cbab9",
+  "dtype_path": {
+   "x": "float32 stored -> float64 at fit",
+   "z": "bridge double -> float32 cast -> canonical reorder -> float64 at fit",
+   "C2": "float32 x @ float32 R -> float32 -> float64 at fit"
+  }
+ },
+ "canonical_scalers": {
+  "z": {
+   "name": "z",
+   "artifact": "iclr2027_revision/provenance/phaseB_baseline/phaseB_z_scaler_state.npz",
+   "artifact_sha256": "ebf55308f3c6e62e43cd8b9aba084413549036c0f7e23a987ee6b8b390672e0e",
+   "n_features": 768,
+   "n_samples_seen_": 5740,
+   "fit_input_digest": "8259eaeecbfc8762f87f0f9c0d0f016fe76cf31a088481a465d5504731e74150",
+   "state_digests": {
+    "mean_": "1cb265f21694c3a0825e2a1eae4b8dd82d0cb539ef49dff0b705eda049678687",
+    "scale_": "075e8d24c273a6e71ef408581233190c3878741aa2cf64479218e531e2b3efad",
+    "var_": "3951b5c57c69066b3ff41de91b85ac12ebe6e43d37662823de42a4f279b8185c"
+   }
+  },
+  "c2": {
+   "name": "c2",
+   "artifact": "iclr2027_revision/provenance/phaseB_baseline/phaseB_c2_scaler_state.npz",
+   "artifact_sha256": "2f6ae19992c7ec7422a3b4a8fe4fea21750a40fb862ecc15acc177d60593600d",
+   "n_features": 768,
+   "n_samples_seen_": 5740,
+   "fit_input_digest": "8162f84737a6d1497900b86746257dcd7eab7f3c3353a3febff4ae661eb813ca",
+   "state_digests": {
+    "mean_": "84539b4a31ec27df6285ffaa4036b8d0ceaadb668e365f72fdf6034f17d81768",
+    "scale_": "42771f8f7fbc55ff0ab36cafb11c4e11879ee53d614daa99211360bb2f6eca00",
+    "var_": "0dee55c68bd41c0d3c3549fe5fb2372b3cacbabfb82b3b3ddfb9cc6f7eb53133"
+   }
+  },
+  "ceiling_x": {
+   "name": "ceiling_x",
+   "artifact": "iclr2027_revision/provenance/phaseB_baseline/phaseB_ceiling_x_scaler_state.npz",
+   "artifact_sha256": "827077e84b40844ccd5aa30fb78b8b0c2571fe98c96d4e1bd9b62bd914892766",
+   "n_features": 2000,
+   "n_samples_seen_": 5740,
+   "fit_input_digest": "9a4b3052a241521d838a3d1430562dfc7d72a16513232ec75c1db0f039fdd4dd",
+   "state_digests": {
+    "mean_": "d5b5c06d73381756656ef8067d317613743affe35281526a75840b8bfd5481ff",
+    "scale_": "2de9be15d282c4133005ff0ea9e878cf1f481283070b26190346ded997a38fc6",
+    "var_": "9d1afcd6f6146585a901488590858e80772f94ce871a96084cc015276ef6e4e6"
+   }
+  }
+ },
+ "same_env_fresh_process_gate": {
+  "label": "SAME_ENV_FRESH_PROCESS",
+  "env": {
+   "python": "3.13.12",
+   "numpy": "2.4.4",
+   "sklearn": "1.9.0",
+   "scipy": "1.17.1"
+  },
+  "PRIMARY_VS_FRESH_Z_SCALER_EXACT": true,
+  "PRIMARY_VS_FRESH_C2_SCALER_EXACT": true,
+  "PRIMARY_VS_FRESH_CEILING_SCALER_EXACT": true,
+  "detail": {
+   "z": {
+    "mean_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "scale_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "var_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "n_samples_seen_": {
+     "fresh_type": "float64",
+     "persisted_type": "int64",
+     "semantic_match": true
+    },
+    "EXACT": true
+   },
+   "c2": {
+    "mean_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "scale_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "var_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "n_samples_seen_": {
+     "fresh_type": "float64",
+     "persisted_type": "int64",
+     "semantic_match": true
+    },
+    "EXACT": true
+   },
+   "ceiling_x": {
+    "mean_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "scale_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "var_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "n_samples_seen_": {
+     "fresh_type": "float64",
+     "persisted_type": "int64",
+     "semantic_match": true
+    },
+    "EXACT": true
+   }
+  }
+ },
+ "lock_rebuild_gate": {
+  "label": "LOCK_REBUILT_ENV",
+  "env": {
+   "python": "3.13.12",
+   "numpy": "2.4.4",
+   "sklearn": "1.9.0",
+   "scipy": "1.17.1"
+  },
+  "LOCK_REBUILD_Z_SCALER_EXACT": true,
+  "LOCK_REBUILD_C2_SCALER_EXACT": true,
+  "LOCK_REBUILD_CEILING_SCALER_EXACT": true,
+  "threadpool_realized": [
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "prefix": "libscipy_openblas",
+    "filepath": "/home/mehrdad/iclr2027_phaseB_out/environment_verification/phaseB_reset_20260829T071326Z_7d9923555790/_env_lockrebuild/lib/python3.13/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so",
+    "version": "0.3.31.188.0",
+    "threading_layer": "pthreads",
+    "architecture": "Haswell"
+   }
+  ],
+  "detail": {
+   "z": {
+    "mean_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "scale_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "var_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "n_samples_seen_": {
+     "fresh_type": "float64",
+     "persisted_type": "int64",
+     "semantic_match": true
+    },
+    "EXACT": true
+   },
+   "c2": {
+    "mean_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "scale_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "var_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "n_samples_seen_": {
+     "fresh_type": "float64",
+     "persisted_type": "int64",
+     "semantic_match": true
+    },
+    "EXACT": true
+   },
+   "ceiling_x": {
+    "mean_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "scale_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "var_": {
+     "exact": true,
+     "unequal": 0
+    },
+    "n_samples_seen_": {
+     "fresh_type": "float64",
+     "persisted_type": "int64",
+     "semantic_match": true
+    },
+    "EXACT": true
+   }
+  }
+ },
+ "HISTORICAL_PHASE0_EXACT_REGENERATION_GATE": "MISMATCH",
+ "HISTORICAL_GATE_CHANGED": false,
+ "HISTORICAL_TOLERANCE_INTRODUCED": false,
+ "PART1_CONSUMED_PHASE0_SCALER_PICKLES": false,
+ "PART1_OPERATIVE_SCALER_STATE_PERSISTED": false,
+ "PART1_BITWISE_SOURCE_REGENERATION_DEMONSTRATED": false,
+ "FUTURE_PHASEB_SCALER_POLICY": "LOAD_ONLY",
+ "PHASEB_REPRODUCIBILITY_GATE": "PASS",
+ "HFM4_EXECUTED": false,
+ "DMECH_EXECUTED": false,
+ "IDENTIFICATION_LADDER_EXECUTED": false,
+ "VCC_VALIDATION_ACCESSED": false,
+ "VCC_TEST_ACCESSED": false,
+ "EXTERNAL_OUTCOME_ACCESSED": false,
+ "Y_ACCESSED": false,
+ "LABEL_COLUMN_REQUESTED": false,
+ "M_TILDE_ACCESSED": false,
+ "SCIENTIFIC_MODEL_FIT": false,
+ "SCIENTIFIC_METRIC_COMPUTED": false,
+ "GPU_WORKLOAD": false,
+ "PROJECT_A_CONTENT_READ": false
+}

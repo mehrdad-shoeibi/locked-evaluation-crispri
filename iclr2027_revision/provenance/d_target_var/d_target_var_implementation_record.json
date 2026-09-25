@@ -1,0 +1,111 @@
+{
+ "D_TARGET_VAR_LOCK_COMMIT": "706b05737abe918c721c5e01a70c3679a53c62ad",
+ "LOCK_FILE": "iclr2027_revision/experiment_specs/lock_amendment_A12_d_target_var.md",
+ "LOCK_SHA256": "4a91e8407a2b75ebd745c4f3f617940e703d86dfbf46e7c99b594fc72f95fe36",
+ "RUNNER_FILE": "iclr2027_revision/pipeline/run_d_target_var.py",
+ "RUNNER_SHA256": "97eabf0a55126200b962d17aa6917657adb8917bbd91f9e7b52db4cb30e355ce",
+ "TARGET_SOURCE_SHA256": "37c9aafef6e721815436a6534eacda4a1db6e73e937e886c44588284a37a0fa0",
+ "TARGET_SOURCE_HASH_MATCH": "YES",
+ "GOVERNED_POPULATION_VERIFIED": {
+  "TRAIN": 5740,
+  "VALIDATION": 2052
+ },
+ "DECOMPOSITION_COMPUTED_BEFORE_FREEZE": "NO",
+ "SYNTHETIC_TESTS": {
+  "SYNTHETIC_TESTS": [
+   {
+    "test": "1_balanced_groups",
+    "result": "PASS",
+    "detail": ""
+   },
+   {
+    "test": "8_balanced_mbar_equality",
+    "result": "PASS",
+    "detail": "arith==weighted when sizes equal"
+   },
+   {
+    "test": "2_unequal_group_sizes",
+    "result": "PASS",
+    "detail": ""
+   },
+   {
+    "test": "7_mbar_weighted_ge_arith",
+    "result": "PASS",
+    "detail": "2.3333 >= 2.0000"
+   },
+   {
+    "test": "3_zero_between_group_diff",
+    "result": "PASS",
+    "detail": "SSB=0.000e+00"
+   },
+   {
+    "test": "4_negative_icc_case",
+    "result": "PASS",
+    "detail": "VAR_BETWEEN=-25.0000 ICC=-1.0000"
+   },
+   {
+    "test": "5_ss_decomposition",
+    "result": "PASS",
+    "detail": "max residual=0.000e+00"
+   },
+   {
+    "test": "6_icc_not_clipped",
+    "result": "PASS",
+    "detail": "negative ICC retained, not clamped to 0"
+   },
+   {
+    "test": "9_positive_icc_de_ordering",
+    "result": "PASS",
+    "detail": "ICC=0.9999: DE_w>=DE_a and N_w<=N_a"
+   },
+   {
+    "test": "10_negative_icc_de_reversal",
+    "result": "PASS",
+    "detail": "ICC=-0.6197: ordering reverses as locked"
+   },
+   {
+    "test": "11_design_effect_le_zero_reachable",
+    "result": "PASS",
+    "detail": "negative ICC with larger mbar drives DE<=0 (forced=-48.000)"
+   },
+   {
+    "test": "12_not_interpretable_behaviour",
+    "result": "PASS",
+    "detail": "DE<=0 and non-finite -> NOT_INTERPRETABLE; finite DE -> N/DE"
+   },
+   {
+    "test": "13_ratio_outputs",
+    "result": "PASS",
+    "detail": "N/approxN == design effect, as locked"
+   },
+   {
+    "test": "14_no_prohibited_imports",
+    "result": "PASS",
+    "detail": "loaded=none"
+   }
+  ],
+  "ALL_PASS": "YES",
+  "SOURCE_OF_VALUES": "synthetic arrays only; not derived from the real target"
+ },
+ "PROHIBITED_IMPORT_AUDIT": {
+  "imports": [
+   "os",
+   "sys",
+   "json",
+   "time",
+   "hashlib",
+   "argparse",
+   "platform",
+   "numpy",
+   "pyarrow.parquet"
+  ],
+  "sklearn": "ABSENT",
+  "torch": "ABSENT",
+  "scipy": "ABSENT",
+  "random": "ABSENT",
+  "network": "ABSENT",
+  "gpu": "ABSENT"
+ },
+ "PRE_RESULT_FREEZE_VIOLATION": "NO",
+ "NOTE": "No real ICC, eta-squared, variance component, group-size summary, design effect, approximate N or N/approx-N ratio has been observed at the time of this record."
+}

@@ -1,0 +1,42 @@
+{
+  "C_chunk_boundary": {
+    "verdict": "NUMERICALLY_EQUIVALENT",
+    "bitwise_equal": false,
+    "max_abs_diff_plain": 1.0658141036401503e-14,
+    "max_abs_diff_compensated": 9.769962616701378e-15,
+    "mean_plain": 1.7535201964858003e-16,
+    "p95_plain": 7.771561172376096e-16,
+    "p99_plain": 1.7763568394002505e-15,
+    "n_gt_1e_12": 0,
+    "n_gt_1e_10": 0,
+    "n_gt_1e_8": 0,
+    "C2_discriminator": "grouping (plain differs, compensated ~0)"
+  },
+  "D_self_oracle": {
+    "verdict": "EXACT",
+    "max_abs_diff": 2.398081733190338e-14,
+    "mean": 4.331626398544264e-16,
+    "median": 1.1102230246251565e-16,
+    "n_gt_1e_12": 0,
+    "n_gt_1e_10": 0,
+    "n_gt_1e_8": 0
+  },
+  "compensated_summation_max_delta": 1.7763568394002505e-15,
+  "E_gene_axis": {
+    "RAW_K562_GENE_DIM": 8563,
+    "RAW_K562_GENE_ID_TYPE": "Ensembl in var['gene_id']; symbols in var['gene_name'] (used for HVG map)",
+    "X_CELL_ACCUMULATION_SPACE": "external native K562 gene space (dim 8563)",
+    "ICLR_HVG_MAPPING_METHOD": "var['gene_name'] symbol -> selected_genes.npy symbols (phase11b run.py:80-113 contract)",
+    "MAPPED_HVG_COUNT": 1430,
+    "MISSING_HVG_COUNT": 570,
+    "MISSING_HVG_POLICY": "zero-fill unmapped HVGs, then nan_to_num, then clip +/-10 LAST (on the aggregate)",
+    "mapped_output_finite": true,
+    "mapped_within_clip": true
+  },
+  "F_determinism": {
+    "bitwise_identical_same_partition": true,
+    "accumulator_dtype": "float64"
+  },
+  "OPERATION_ORDER_CONFIRMED": true,
+  "clip_code_line": "scripts/phase11b_classical_transfer/run.py:~108-109 (np.nan_to_num then np.clip(-10,10) on the mapped aggregate)"
+}

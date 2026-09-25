@@ -1,0 +1,86 @@
+{
+  "tests": [
+    {
+      "test": "thread_policy_failure",
+      "expected": "PhaseBError: thread variable not 1",
+      "observed": "PhaseBError: thread variables not set to 1 before interpreter start: ['OMP_NUM_THREADS']",
+      "result": "PASS"
+    },
+    {
+      "test": "wrong_scaler_sha",
+      "expected": "PhaseBError: scaler artifact SHA-256 mismatch",
+      "observed": "PhaseBError: z scaler artifact SHA-256 mismatch: ebf55308f3c6e62e43cd8b9aba084413549036c0f7e23a987ee6b8b390672e0e",
+      "result": "PASS"
+    },
+    {
+      "test": "split_test_request",
+      "expected": "PhaseBError before any test file is opened",
+      "observed": "PhaseBError: FORBIDDEN SPLIT REQUESTED: 'test' \u2014 H-FM4 is train/validation only",
+      "result": "PASS"
+    },
+    {
+      "test": "split_external_request",
+      "expected": "PhaseBError before any external file is opened",
+      "observed": "PhaseBError: FORBIDDEN SPLIT REQUESTED: 'RPE1' \u2014 H-FM4 is train/validation only",
+      "result": "PASS"
+    },
+    {
+      "test": "scaler_refit_forbidden_api",
+      "expected": "PhaseBError from phaseB_preprocessing.refit_forbidden",
+      "observed": "PhaseBError: A10: Phase-B scientific runners must LOAD canonical scaler state, never refit.",
+      "result": "PASS"
+    },
+    {
+      "test": "standardscaler_fit_instrumentation",
+      "expected": "PhaseBError from the patched StandardScaler.fit, and the counter increments",
+      "observed": "PhaseBError: A10 \u00a74: Phase-B scientific runners must LOAD canonical scaler state, never refit (StandardScaler.fit is forbidden).",
+      "result": "PASS"
+    },
+    {
+      "test": "standardscaler_fit_transform_instrumentation",
+      "expected": "PhaseBError from the patched StandardScaler.fit_transform",
+      "observed": "PhaseBError: A10 \u00a74: Phase-B scientific runners must LOAD canonical scaler state, never refit (StandardScaler.fit_transform is forbidden).",
+      "result": "PASS"
+    },
+    {
+      "test": "duplicate_keys",
+      "expected": "PhaseBError: duplicate shard keys",
+      "observed": "PhaseBError: duplicate shard keys",
+      "result": "PASS"
+    },
+    {
+      "test": "missing_keys",
+      "expected": "PhaseBError: keys missing from bridge",
+      "observed": "PhaseBError: keys missing from bridge",
+      "result": "PASS"
+    },
+    {
+      "test": "existing_output_dir",
+      "expected": "FileExistsError: output root already exists",
+      "observed": "FileExistsError: output root already exists (no reuse, no overwrite): /home/mehrdad/iclr2027_phaseB_out/phaseB/hfm4_tv_20260829T082843Z_b63c2a0",
+      "result": "PASS"
+    },
+    {
+      "test": "nonfinite_mixed",
+      "expected": "finite max 0.7 at alpha=1 selected; 4 non-finite ineligible",
+      "observed": "selected_alpha=1.0 r2=0.7 n_finite=3 status=OK",
+      "result": "PASS"
+    },
+    {
+      "test": "exact_tie_largest_alpha",
+      "expected": "alphas {1e-2, 1, 100} exactly tied at 0.42 -> select 100.0",
+      "observed": "selected_alpha=100.0 tie_applied=True tied_alphas=[0.01, 1.0, 100.0]",
+      "result": "PASS"
+    },
+    {
+      "test": "all_nonfinite_probe_degenerate",
+      "expected": "selected_alpha=None, status=PROBE_DEGENERATE",
+      "observed": "selected_alpha=None status=PROBE_DEGENERATE",
+      "result": "PASS"
+    }
+  ],
+  "instrumentation_proof_counts": {
+    "fit": 1,
+    "fit_transform": 1
+  }
+}

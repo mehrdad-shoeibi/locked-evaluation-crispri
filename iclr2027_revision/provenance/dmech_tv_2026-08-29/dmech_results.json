@@ -1,0 +1,47 @@
+{
+ "RUN_UTC_TIMESTAMP": "20260829T212339Z",
+ "RUN_UTC_DATE": "2026-08-29",
+ "ALPHA_GRID": [
+  0.001,
+  0.01,
+  0.1,
+  1.0,
+  10.0,
+  100.0,
+  1000.0
+ ],
+ "ALPHA_SCORE_TABLE": {
+  "0.001": -0.14016045462719284,
+  "0.01": -0.14008420483922368,
+  "0.1": -0.1393000979339789,
+  "1.0": -0.13292780213498245,
+  "10.0": -0.10874826591187481,
+  "100.0": -0.06905994852762753,
+  "1000.0": -0.014630115836128832
+ },
+ "SELECTED_ALPHA": 1000.0,
+ "SELECTED_VALIDATION_R2": -0.014630115836128832,
+ "TIE_APPLIED": false,
+ "TIED_ALPHAS": [
+  1000.0
+ ],
+ "STATUS": "OK",
+ "ALPHA_GRID_MIN": 0.001,
+ "ALPHA_GRID_MAX": 1000.0,
+ "ALPHA_AT_GRID_BOUNDARY": "YES",
+ "ALPHA_BOUNDARY_SIDE": "MAX",
+ "DMECH_RESULT_BRANCH": "NULL_OR_NONPOSITIVE",
+ "TRAIN_ROWS": 5740,
+ "VALIDATION_ROWS": 2052,
+ "TARGET_SUPPORT_N_CELLS": [
+  10,
+  121
+ ],
+ "DMECH_R2_DENOMINATOR_CONVENTION": "VALIDATION_SET_OWN_MEAN",
+ "DMECH_R2_POOLING_UNITS": "VALIDATION_ROWS_ONLY",
+ "DMECH_REFIT_ON_COMBINED_TRAIN_VALIDATION": "NO",
+ "DETERMINISTIC_REPEATS_IDENTICAL": "YES",
+ "DMECH_DETERMINISM_SCOPE": "IN_PROCESS_FIXED_ENVIRONMENT",
+ "DMECH_RESULT_OBSERVED": "YES",
+ "DMECH_LOCKED_STATEMENT": "This probe did not linearly recover sampling-depth-associated information from the frozen Geneformer representation on VCC train/validation under the pre-specified estimator and grid. and the regularization optimum was not bracketed above within the pre-specified grid, so non-recovery is not established even for this estimator family."
+}

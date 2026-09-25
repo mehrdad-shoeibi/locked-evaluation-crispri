@@ -1,0 +1,52 @@
+{
+ "PYTHON_VERSION": "3.13.12",
+ "PYTHON_EXECUTABLE": "<PHASEB-OUT>/environment_hfm4/venv/bin/python",
+ "PLATFORM": "Linux-6.17.0-22-generic-x86_64-with-glibc2.39",
+ "PACKAGES": {
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "scikit-learn": "1.9.0",
+  "joblib": "1.5.3",
+  "threadpoolctl": "3.6.0",
+  "pyarrow": "24.0.0"
+ },
+ "THREAD_ENVIRONMENT": {
+  "OMP_NUM_THREADS": "1",
+  "OPENBLAS_NUM_THREADS": "1",
+  "MKL_NUM_THREADS": "1",
+  "VECLIB_MAXIMUM_THREADS": "1",
+  "NUMEXPR_NUM_THREADS": "1"
+ },
+ "THREADPOOLCTL_STATE": [
+  {
+   "user_api": "blas",
+   "internal_api": "openblas",
+   "num_threads": 1,
+   "prefix": "libscipy_openblas",
+   "filepath": "<PHASEB-OUT>/environment_hfm4/venv/lib/python3.13/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so",
+   "version": "0.3.31.188.0",
+   "threading_layer": "pthreads",
+   "architecture": "Haswell"
+  },
+  {
+   "user_api": "blas",
+   "internal_api": "openblas",
+   "num_threads": 1,
+   "prefix": "libscipy_openblas",
+   "filepath": "<PHASEB-OUT>/environment_hfm4/venv/lib/python3.13/site-packages/scipy.libs/libscipy_openblas-6cdc3b4a.so",
+   "version": "0.3.30",
+   "threading_layer": "pthreads",
+   "architecture": "Haswell"
+  },
+  {
+   "user_api": "openmp",
+   "internal_api": "openmp",
+   "num_threads": 1,
+   "prefix": "libgomp",
+   "filepath": "<PHASEB-OUT>/environment_hfm4/venv/lib/python3.13/site-packages/scikit_learn.libs/libgomp-e985bcbb.so.1.0.0",
+   "version": null
+  }
+ ],
+ "GPU_REQUIRED_FOR_DMECH": "NO",
+ "GPU_USED_FOR_DMECH": "NO"
+}

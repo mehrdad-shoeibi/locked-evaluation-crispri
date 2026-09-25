@@ -1,0 +1,76 @@
+{
+ "SYNTHETIC_TESTS": [
+  {
+   "test": "1_balanced_groups",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "8_balanced_mbar_equality",
+   "result": "PASS",
+   "detail": "arith==weighted when sizes equal"
+  },
+  {
+   "test": "2_unequal_group_sizes",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "7_mbar_weighted_ge_arith",
+   "result": "PASS",
+   "detail": "2.3333 >= 2.0000"
+  },
+  {
+   "test": "3_zero_between_group_diff",
+   "result": "PASS",
+   "detail": "SSB=0.000e+00"
+  },
+  {
+   "test": "4_negative_icc_case",
+   "result": "PASS",
+   "detail": "VAR_BETWEEN=-25.0000 ICC=-1.0000"
+  },
+  {
+   "test": "5_ss_decomposition",
+   "result": "PASS",
+   "detail": "max residual=0.000e+00"
+  },
+  {
+   "test": "6_icc_not_clipped",
+   "result": "PASS",
+   "detail": "negative ICC retained, not clamped to 0"
+  },
+  {
+   "test": "9_positive_icc_de_ordering",
+   "result": "PASS",
+   "detail": "ICC=0.9999: DE_w>=DE_a and N_w<=N_a"
+  },
+  {
+   "test": "10_negative_icc_de_reversal",
+   "result": "PASS",
+   "detail": "ICC=-0.6197: ordering reverses as locked"
+  },
+  {
+   "test": "11_design_effect_le_zero_reachable",
+   "result": "PASS",
+   "detail": "negative ICC with larger mbar drives DE<=0 (forced=-48.000)"
+  },
+  {
+   "test": "12_not_interpretable_behaviour",
+   "result": "PASS",
+   "detail": "DE<=0 and non-finite -> NOT_INTERPRETABLE; finite DE -> N/DE"
+  },
+  {
+   "test": "13_ratio_outputs",
+   "result": "PASS",
+   "detail": "N/approxN == design effect, as locked"
+  },
+  {
+   "test": "14_no_prohibited_imports",
+   "result": "PASS",
+   "detail": "loaded=none"
+  }
+ ],
+ "ALL_PASS": "YES",
+ "SOURCE_OF_VALUES": "synthetic arrays only; not derived from the real target"
+}

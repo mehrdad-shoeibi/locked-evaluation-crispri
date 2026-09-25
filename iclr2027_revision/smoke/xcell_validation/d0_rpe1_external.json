@@ -1,0 +1,38 @@
+{
+  "convention": {
+    "mada_avg_over": "ALL cells of each construct (n_perturbed_cells_raw)",
+    "mada_nt": "global pooled NT over all 11485 cells",
+    "gene_axis": "native RPE1 var order, dim 8749",
+    "excluded_constructs": "none (all 20 conventions coincide: all-cells + global-NT + native axis)"
+  },
+  "artifact_dtype": "float32",
+  "n_constructs": 20,
+  "n_nt_cells": 11485,
+  "cell_counts_exact": true,
+  "raw_float64_vs_float32": {
+    "max": 9.667052669470877e-08,
+    "mean": 1.0679060460309393e-09,
+    "median": 4.749301923956395e-10,
+    "p95": 3.666127726398294e-09,
+    "p99": 8.298132694317645e-09,
+    "n_gt_1e_12": 174277,
+    "n_gt_1e_10": 143355,
+    "n_gt_1e_8": 1398
+  },
+  "post_cast_float32": {
+    "max": 0.0,
+    "mean": 0.0,
+    "median": 0.0,
+    "p95": 0.0,
+    "p99": 0.0,
+    "n_gt_1e_12": 0,
+    "n_gt_1e_10": 0,
+    "n_gt_1e_8": 0
+  },
+  "worst_construct": "10005_ZBTB4_P1_ENSG00000174282",
+  "worst_gene_index": 0,
+  "worst_post_abs": 0.0,
+  "float32_eps": 1.1920928955078125e-07,
+  "float32_ulp_at_max_value": 2.384185791015625e-07,
+  "EXTERNAL_ORACLE": "EXACT"
+}

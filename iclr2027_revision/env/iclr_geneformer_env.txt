@@ -1,0 +1,45 @@
+# ICLR Geneformer environment record (Lock §31 M5 starting artifact)
+# Recorded: 2026-08-10T21:32:38-04:00  host: titans
+# Session: L6 smoke test (first executing session)
+
+## conda env
+env_path: /home/mehrdad/.conda/envs/mada_phaseb_geneformer
+conda_env_name: mada_phaseb_geneformer
+
+## python / libraries
+python: 3.10.20
+executable: /home/mehrdad/.conda/envs/mada_phaseb_geneformer/bin/python
+torch: 2.3.1+cu121
+transformers: 4.49.0
+numpy: 2.2.6
+scipy: 1.15.3
+pandas: 2.3.3
+anndata: 0.11.4
+scanpy: 1.11.5
+datasets: 4.8.5
+h5py: 3.16.0
+sklearn: 1.7.2
+torch.version.cuda: 12.1
+torch.cuda.is_available: True
+cuda_device_count: 2
+cuda:0: NVIDIA TITAN RTX
+cuda:1: NVIDIA TITAN RTX
+
+## driver / CUDA runtime (nvidia-smi)
+0, NVIDIA TITAN RTX, 580.126.20, 24576 MiB
+1, NVIDIA TITAN RTX, 580.126.20, 24576 MiB
+cuda_driver_api: CUDA Version: 13.0
+
+## Geneformer (READ-ONLY source)
+repo: /home/mehrdad/Desktop/MADA/cache/foundation_models/geneformer-repo
+repo_commit: ad8f66dfcda3ebbd148d916c01f31339c5b95a15
+checkpoint: Geneformer-V2-104M/model.safetensors
+checkpoint_sha256: fff5cba29ddd8792991fa77b4872246fbe548a178cebda3775cdc72b67780e7f
+config: 12 layers / hidden 768 / 12 heads / vocab 20275 / max_pos 4096 / fp32 (config.json)
+token_dict_sha256: 67c445f4385127adfc48dcc072320cd65d6822829bf27dd38070e6e787bc597f
+gene_median_dict_sha256: a51c53f6a771d64508dfaf61529df70e394c53bd20856926117ae5d641a24bf5
+ensembl_mapping_dict_sha256: 0819bcbd869cfa14279449b037eb9ed1d09a91310e77bd1a19d927465030e95c
+gene_name_id_dict_sha256: fabfa0c2f49c598c59ae432a32c3499a5908c033756c663b5e0cddf58deea8e1
+
+## NOTE: transformers 4.49.0 is the current env; checkpoint config.json recorded transformers_version 4.44.2.
+## The RPE1 correctness oracle (Run 1) tests whether this env reproduces the cached embeddings.

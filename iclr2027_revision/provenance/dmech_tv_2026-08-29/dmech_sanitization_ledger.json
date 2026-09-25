@@ -1,0 +1,1935 @@
+{
+ "EXTERNAL_EXACT_SANITIZATION_DIFF": "dmech_sanitization_exact_diff.txt",
+ "EXTERNAL_EXACT_SANITIZATION_DIFF_SHA256": "8ad41dfa30831be5701bcf08b78f5424aa4b62d19a382f6f6ad83401612cbe0c",
+ "EXTERNAL_EXACT_SANITIZATION_DIFF_COMMITTED": "NO",
+ "NOTE": "Original identifying strings are deliberately absent from this repository ledger; each is attested by SOURCE_LINE_SHA256 and, in full, only by the external exact-diff artifact.",
+ "INVARIANCE_METHOD": "residual equality - deleting every source string from the original line and every replacement token from the sanitized line leaves byte-identical text, proving nothing outside the path/identity substitution changed; plus 64-hex token sequence equality.",
+ "ARTIFACT_RECORDS": [
+  {
+   "SOURCE_EXTERNAL_ARTIFACT": "DMECH_PRE_RUN_FREEZE.json",
+   "SOURCE_EXTERNAL_ARTIFACT_SHA256": "a32b4ee5312de158b46dfde3ebf6d418af944da3977dca8c34b61f4b6472fb29",
+   "SANITIZED_DERIVED_ARTIFACT": "iclr2027_revision/provenance/dmech_tv_2026-08-29/DMECH_PRE_RUN_FREEZE.sanitized.json",
+   "SANITIZED_DERIVED_ARTIFACT_SHA256": "fafa131176daae6bef0cdfe4ce3e012b1ec8821d4cbfc1decf1603ba16a3c4f3",
+   "SANITIZATION_PERFORMED": "YES",
+   "SANITIZATION_SCOPE": "absolute filesystem paths and the local username only, replaced by <REPO>/<B-STORAGE>/<PHASEB-OUT>/<PROJECT-A-REPO>/<EXT-MOUNT>/<HOME>/<USER>",
+   "SANITIZED_DIFF_LINE_COUNT": 10,
+   "RESIDUAL_EQUALITY_PROOF": "PASS",
+   "SHA256_TOKEN_SEQUENCE_UNCHANGED": "YES",
+   "NO_NUMERIC_OR_HASH_LINE_ALTERED": "YES"
+  },
+  {
+   "SOURCE_EXTERNAL_ARTIFACT": "DMECH_PRE_RUN_FREEZE.md",
+   "SOURCE_EXTERNAL_ARTIFACT_SHA256": "3ed4fbbe030c6a6dc915e646bb6363e26fe3cbbd7d5ca5e0cf87799fe221f621",
+   "SANITIZED_DERIVED_ARTIFACT": "iclr2027_revision/provenance/dmech_tv_2026-08-29/DMECH_PRE_RUN_FREEZE.sanitized.md",
+   "SANITIZED_DERIVED_ARTIFACT_SHA256": "c87d3732c37f8711f91cc4d3ac42511e155ae2e2efe4da8f793e57f776114ddd",
+   "SANITIZATION_PERFORMED": "YES",
+   "SANITIZATION_SCOPE": "absolute filesystem paths and the local username only, replaced by <REPO>/<B-STORAGE>/<PHASEB-OUT>/<PROJECT-A-REPO>/<EXT-MOUNT>/<HOME>/<USER>",
+   "SANITIZED_DIFF_LINE_COUNT": 7,
+   "RESIDUAL_EQUALITY_PROOF": "PASS",
+   "SHA256_TOKEN_SEQUENCE_UNCHANGED": "YES",
+   "NO_NUMERIC_OR_HASH_LINE_ALTERED": "YES"
+  },
+  {
+   "SOURCE_EXTERNAL_ARTIFACT": "dmech_guard_tests.json",
+   "SOURCE_EXTERNAL_ARTIFACT_SHA256": "fa0f41efaa388753de656fb177eeb40eb7751cc86e89873e9be85debbdeaab92",
+   "SANITIZED_DERIVED_ARTIFACT": "iclr2027_revision/provenance/dmech_tv_2026-08-29/dmech_guard_tests.sanitized.json",
+   "SANITIZED_DERIVED_ARTIFACT_SHA256": "843a1b1b2f627e7608abc56b22ce647251642b0ad3046a21586dc59564c17de8",
+   "SANITIZATION_PERFORMED": "YES",
+   "SANITIZATION_SCOPE": "absolute filesystem paths and the local username only, replaced by <REPO>/<B-STORAGE>/<PHASEB-OUT>/<PROJECT-A-REPO>/<EXT-MOUNT>/<HOME>/<USER>",
+   "SANITIZED_DIFF_LINE_COUNT": 2,
+   "RESIDUAL_EQUALITY_PROOF": "PASS",
+   "SHA256_TOKEN_SEQUENCE_UNCHANGED": "YES",
+   "NO_NUMERIC_OR_HASH_LINE_ALTERED": "YES"
+  },
+  {
+   "SOURCE_EXTERNAL_ARTIFACT": "dmech_input_access_manifest.json",
+   "SOURCE_EXTERNAL_ARTIFACT_SHA256": "ffe86fa01351e9c603711f956f448c6cd86e95987c6cd1eb9da93da27108dae2",
+   "SANITIZED_DERIVED_ARTIFACT": "iclr2027_revision/provenance/dmech_tv_2026-08-29/dmech_input_access_manifest.sanitized.json",
+   "SANITIZED_DERIVED_ARTIFACT_SHA256": "f7f445452d9fd93def2fbdf0e954287bb558e8d794da1f2531f7eab384192a71",
+   "SANITIZATION_PERFORMED": "YES",
+   "SANITIZATION_SCOPE": "absolute filesystem paths and the local username only, replaced by <REPO>/<B-STORAGE>/<PHASEB-OUT>/<PROJECT-A-REPO>/<EXT-MOUNT>/<HOME>/<USER>",
+   "SANITIZED_DIFF_LINE_COUNT": 198,
+   "RESIDUAL_EQUALITY_PROOF": "PASS",
+   "SHA256_TOKEN_SEQUENCE_UNCHANGED": "YES",
+   "NO_NUMERIC_OR_HASH_LINE_ALTERED": "YES"
+  },
+  {
+   "SOURCE_EXTERNAL_ARTIFACT": "dmech_environment.json",
+   "SOURCE_EXTERNAL_ARTIFACT_SHA256": "2c58ec166c6dff617d19e6cf3f03469010cefe9e8348dfa334e37a8779056a29",
+   "SANITIZED_DERIVED_ARTIFACT": "iclr2027_revision/provenance/dmech_tv_2026-08-29/dmech_environment.sanitized.json",
+   "SANITIZED_DERIVED_ARTIFACT_SHA256": "02015b95de1e226a426e41170dbcd1b727e280aa52028256efe424d52bbae741",
+   "SANITIZATION_PERFORMED": "YES",
+   "SANITIZATION_SCOPE": "absolute filesystem paths and the local username only, replaced by <REPO>/<B-STORAGE>/<PHASEB-OUT>/<PROJECT-A-REPO>/<EXT-MOUNT>/<HOME>/<USER>",
+   "SANITIZED_DIFF_LINE_COUNT": 4,
+   "RESIDUAL_EQUALITY_PROOF": "PASS",
+   "SHA256_TOKEN_SEQUENCE_UNCHANGED": "YES",
+   "NO_NUMERIC_OR_HASH_LINE_ALTERED": "YES"
+  },
+  {
+   "SOURCE_EXTERNAL_ARTIFACT": "dmech_run_manifest.json",
+   "SOURCE_EXTERNAL_ARTIFACT_SHA256": "e57481e794ebf19fd15fa5f15a5521a08d98be09beddf38e635a483f7d639795",
+   "SANITIZED_DERIVED_ARTIFACT": "iclr2027_revision/provenance/dmech_tv_2026-08-29/dmech_run_manifest.sanitized.json",
+   "SANITIZED_DERIVED_ARTIFACT_SHA256": "39aec058cb5726f6503b751b73977f1e88710729902d337377ee202ae6ae07c2",
+   "SANITIZATION_PERFORMED": "YES",
+   "SANITIZATION_SCOPE": "absolute filesystem paths and the local username only, replaced by <REPO>/<B-STORAGE>/<PHASEB-OUT>/<PROJECT-A-REPO>/<EXT-MOUNT>/<HOME>/<USER>",
+   "SANITIZED_DIFF_LINE_COUNT": 2,
+   "RESIDUAL_EQUALITY_PROOF": "PASS",
+   "SHA256_TOKEN_SEQUENCE_UNCHANGED": "YES",
+   "NO_NUMERIC_OR_HASH_LINE_ALTERED": "YES"
+  },
+  {
+   "SOURCE_EXTERNAL_ARTIFACT": "dmech_execution.log",
+   "SOURCE_EXTERNAL_ARTIFACT_SHA256": "134f3a9efab06e1b3162716baee33d4a3aace05cff6fb1d41bec746240162846",
+   "SANITIZED_DERIVED_ARTIFACT": "iclr2027_revision/provenance/dmech_tv_2026-08-29/dmech_execution.sanitized.log",
+   "SANITIZED_DERIVED_ARTIFACT_SHA256": "09d6f2cbc2f32d36fec01871c62e20f98a044ac226000b3e9389dd2b0a3d9173",
+   "SANITIZATION_PERFORMED": "YES",
+   "SANITIZATION_SCOPE": "absolute filesystem paths and the local username only, replaced by <REPO>/<B-STORAGE>/<PHASEB-OUT>/<PROJECT-A-REPO>/<EXT-MOUNT>/<HOME>/<USER>",
+   "SANITIZED_DIFF_LINE_COUNT": 4,
+   "RESIDUAL_EQUALITY_PROOF": "PASS",
+   "SHA256_TOKEN_SEQUENCE_UNCHANGED": "YES",
+   "NO_NUMERIC_OR_HASH_LINE_ALTERED": "YES"
+  },
+  {
+   "SOURCE_EXTERNAL_ARTIFACT": "dmech_results.json",
+   "SOURCE_EXTERNAL_ARTIFACT_SHA256": "3e0975c54ce0cdc6ab5a6f8aadd5f63693ea45fdbfa97194ddf028b0a94f9dc4",
+   "SANITIZED_DERIVED_ARTIFACT": "iclr2027_revision/provenance/dmech_tv_2026-08-29/dmech_results.json",
+   "SANITIZED_DERIVED_ARTIFACT_SHA256": "3e0975c54ce0cdc6ab5a6f8aadd5f63693ea45fdbfa97194ddf028b0a94f9dc4",
+   "SANITIZATION_PERFORMED": "NO",
+   "SANITIZATION_SCOPE": "absolute filesystem paths and the local username only, replaced by <REPO>/<B-STORAGE>/<PHASEB-OUT>/<PROJECT-A-REPO>/<EXT-MOUNT>/<HOME>/<USER>",
+   "SANITIZED_DIFF_LINE_COUNT": 0,
+   "RESIDUAL_EQUALITY_PROOF": "PASS",
+   "SHA256_TOKEN_SEQUENCE_UNCHANGED": "YES",
+   "NO_NUMERIC_OR_HASH_LINE_ALTERED": "YES"
+  },
+  {
+   "SOURCE_EXTERNAL_ARTIFACT": "dmech_results.csv",
+   "SOURCE_EXTERNAL_ARTIFACT_SHA256": "fc9d5034520ebfdb02f0eda71f04f8130a8545f63744b76228175b0613a5d808",
+   "SANITIZED_DERIVED_ARTIFACT": "iclr2027_revision/provenance/dmech_tv_2026-08-29/dmech_results.csv",
+   "SANITIZED_DERIVED_ARTIFACT_SHA256": "fc9d5034520ebfdb02f0eda71f04f8130a8545f63744b76228175b0613a5d808",
+   "SANITIZATION_PERFORMED": "NO",
+   "SANITIZATION_SCOPE": "absolute filesystem paths and the local username only, replaced by <REPO>/<B-STORAGE>/<PHASEB-OUT>/<PROJECT-A-REPO>/<EXT-MOUNT>/<HOME>/<USER>",
+   "SANITIZED_DIFF_LINE_COUNT": 0,
+   "RESIDUAL_EQUALITY_PROOF": "PASS",
+   "SHA256_TOKEN_SEQUENCE_UNCHANGED": "YES",
+   "NO_NUMERIC_OR_HASH_LINE_ALTERED": "YES"
+  }
+ ],
+ "SANITIZATION_LEDGER": [
+  {
+   "SANITIZED_CHANGE_INDEX": 1,
+   "SANITIZED_DERIVED_ARTIFACT": "DMECH_PRE_RUN_FREEZE.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 4,
+   "SOURCE_LINE_SHA256": "c4ee6b1d3fe05b77becacbde9d3279fd063b0b75cba27c281662519c3a16a3b5",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": " \"DMECH_EXTERNAL_RUN_ROOT\": \"<PHASEB-OUT>/phaseB/dmech_tv_20260829T212338Z_64e44afe\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 2,
+   "SANITIZED_DERIVED_ARTIFACT": "DMECH_PRE_RUN_FREEZE.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 14,
+   "SOURCE_LINE_SHA256": "732ab4d409a0cf7090b493ce36e040317618601edeef5710c842ccc9c4f3d989",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": " \"R2_IMPL_PATH\": \"<REPO>/iclr2027_revision/pipeline/phase1_harness.py\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 3,
+   "SANITIZED_DERIVED_ARTIFACT": "DMECH_PRE_RUN_FREEZE.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 21,
+   "SOURCE_LINE_SHA256": "d802cb33190872008a4b54eeb6b029b7ac087498ba21f33442448da5edbcc4e7",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": " \"BOUND_ROOT_LITERAL\": \"<B-STORAGE>\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 4,
+   "SANITIZED_DERIVED_ARTIFACT": "DMECH_PRE_RUN_FREEZE.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 22,
+   "SOURCE_LINE_SHA256": "1c30d52a622aa6b61ca4cf0f647935553e140f8f4ee21510dad74cc79c5392bd",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": " \"BOUND_ROOT_REALPATH\": \"<B-STORAGE>\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 5,
+   "SANITIZED_DERIVED_ARTIFACT": "DMECH_PRE_RUN_FREEZE.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 24,
+   "SOURCE_LINE_SHA256": "369ff06a825621ef094e42a0bb7e35b792f0043b6c63911a8ab0cf0f27d8ab6c",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": " \"TARGET_SOURCE_PATH\": \"<B-STORAGE>/MADA/data/metadata/vcc/final_labels.parquet\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 6,
+   "SANITIZED_DERIVED_ARTIFACT": "DMECH_PRE_RUN_FREEZE.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 60,
+   "SOURCE_LINE_SHA256": "5bbdcb0fb22d67f04d5fa21304cf9a1ebb3f27a09ad95366ec2581f3af1fc2a5",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": " \"DMECH_RUNNER_PATH\": \"<REPO>/iclr2027_revision/pipeline/run_dmech_tv.py\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 7,
+   "SANITIZED_DERIVED_ARTIFACT": "DMECH_PRE_RUN_FREEZE.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 63,
+   "SOURCE_LINE_SHA256": "c6c12101fdaa9dbb0be9edc7cbac72aaad857ebf3a0512ea3515aba4f89f65f1",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": " \"PYTHON_EXECUTABLE\": \"<PHASEB-OUT>/environment_hfm4/venv/bin/python\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 8,
+   "SANITIZED_DERIVED_ARTIFACT": "DMECH_PRE_RUN_FREEZE.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 85,
+   "SOURCE_LINE_SHA256": "6a41639af6c78b36fd9949abbeca7f2d599dff1fc77ba2f65599c4ad7903a4dc",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"filepath\": \"<PHASEB-OUT>/environment_hfm4/venv/lib/python3.13/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 9,
+   "SANITIZED_DERIVED_ARTIFACT": "DMECH_PRE_RUN_FREEZE.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 95,
+   "SOURCE_LINE_SHA256": "c2ccdcfff172b12428fdb257482abe669b8121ef302016b42ebb1df5ff957903",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"filepath\": \"<PHASEB-OUT>/environment_hfm4/venv/lib/python3.13/site-packages/scipy.libs/libscipy_openblas-6cdc3b4a.so\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 10,
+   "SANITIZED_DERIVED_ARTIFACT": "DMECH_PRE_RUN_FREEZE.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 105,
+   "SOURCE_LINE_SHA256": "02f619f5de3661cbb95e408618b158cc160c88326a7b6a298994e870f13db2da",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"filepath\": \"<PHASEB-OUT>/environment_hfm4/venv/lib/python3.13/site-packages/scikit_learn.libs/libgomp-e985bcbb.so.1.0.0\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 11,
+   "SANITIZED_DERIVED_ARTIFACT": "DMECH_PRE_RUN_FREEZE.sanitized.md",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 8,
+   "SOURCE_LINE_SHA256": "f8ab40561a4a43fe3dd469d071b34c22552ac710ea2c318a23df54f9d8899895",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "DMECH_EXTERNAL_RUN_ROOT = <PHASEB-OUT>/phaseB/dmech_tv_20260829T212338Z_64e44afe"
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 12,
+   "SANITIZED_DERIVED_ARTIFACT": "DMECH_PRE_RUN_FREEZE.sanitized.md",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 18,
+   "SOURCE_LINE_SHA256": "1ac746d44ae9b52ce5765d30e4dcd7c4f5e644af382dd3f732bfa95a5c39512c",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "R2_IMPL_PATH = <REPO>/iclr2027_revision/pipeline/phase1_harness.py"
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 13,
+   "SANITIZED_DERIVED_ARTIFACT": "DMECH_PRE_RUN_FREEZE.sanitized.md",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 28,
+   "SOURCE_LINE_SHA256": "2024ced5e0e30945da02d8beed25734612002f9e3f303db508010f0e5cd4302d",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "BOUND_ROOT_LITERAL = <B-STORAGE>"
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 14,
+   "SANITIZED_DERIVED_ARTIFACT": "DMECH_PRE_RUN_FREEZE.sanitized.md",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 29,
+   "SOURCE_LINE_SHA256": "3a530b392877c2c5e12e755908ff5f008f67258708ee72fbc6dd5e41b99acfc9",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "BOUND_ROOT_REALPATH = <B-STORAGE>"
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 15,
+   "SANITIZED_DERIVED_ARTIFACT": "DMECH_PRE_RUN_FREEZE.sanitized.md",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 31,
+   "SOURCE_LINE_SHA256": "a35c3b76b1f970add96ca7f39e2c1758ae929114a6aaaab6524f15c689b494aa",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "TARGET_SOURCE_PATH = <B-STORAGE>/MADA/data/metadata/vcc/final_labels.parquet"
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 16,
+   "SANITIZED_DERIVED_ARTIFACT": "DMECH_PRE_RUN_FREEZE.sanitized.md",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 56,
+   "SOURCE_LINE_SHA256": "ab4f3f652c610d3163f2996f798f91e0ce1694f00b920eb0df7e0abe824ab9d8",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "DMECH_RUNNER_PATH = <REPO>/iclr2027_revision/pipeline/run_dmech_tv.py"
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 17,
+   "SANITIZED_DERIVED_ARTIFACT": "DMECH_PRE_RUN_FREEZE.sanitized.md",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 59,
+   "SOURCE_LINE_SHA256": "bf16e2f7c0d40f73b89452b6b43e6daeec886f17a8755833ff51fd1d5291ae27",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "PYTHON_EXECUTABLE = <PHASEB-OUT>/environment_hfm4/venv/bin/python"
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 18,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_guard_tests.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 36,
+   "SOURCE_LINE_SHA256": "92d801dcb7ddd62dac5f19d2d79c68c41a1a30625b578fcd89ac5f0522a982e0",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"observed\": \"PhaseBError: BOUNDARY VIOLATION: probe resolves inside Project-A root <EXT-MOUNT>/IGA_NeurIPS: <EXT-MOUNT>/IGA_NeurIPS/x\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 19,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_guard_tests.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 78,
+   "SOURCE_LINE_SHA256": "38c79bf44a7f59ce5994ae94d3f533fe4192588ac23688d25071b5d1f5f97bc2",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"observed\": \"FileExistsError: [Errno 17] File exists: '<PHASEB-OUT>/phaseB/dmech_tv_20260829T212338Z_64e44afe'\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 20,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 4,
+   "SOURCE_LINE_SHA256": "4c52f05c802d6074e834516d2e2c5a76ea3245ae133ccc99af34de809466774d",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_01.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 21,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 5,
+   "SOURCE_LINE_SHA256": "df79c0ef52f52948055b2fe702abd1dda61a081ec4033538c160e429fbd55ccc",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_01.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 22,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 15,
+   "SOURCE_LINE_SHA256": "546516cb7319defc1bc74bf14dfabdd8bb18cc793c2ed98341cd6c2842482541",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_02.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 23,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 16,
+   "SOURCE_LINE_SHA256": "33e690204f79ab3facc937804081d128f52d94e5bbfbfb7245307b9b3084ceba",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_02.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 24,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 26,
+   "SOURCE_LINE_SHA256": "566290ccbea0f784182eabbb784ab136152dbce5d41b14be9a2524e00af46cbf",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_03.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 25,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 27,
+   "SOURCE_LINE_SHA256": "3eb89befb88dd28d8c57eac27355ee665fda89dc603ed465ad7e4bca20c0edc0",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_03.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 26,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 37,
+   "SOURCE_LINE_SHA256": "3589882882563329cf63da3d1d57fe376a3aa11ada1778484609093bfb29fefd",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_04.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 27,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 38,
+   "SOURCE_LINE_SHA256": "98fcc54be79ede7ccd4d520d9c000678a1c47e97481f37bde9b72e67ab9a8960",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_04.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 28,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 48,
+   "SOURCE_LINE_SHA256": "3c952b005221b9f213d0feebb53a25febddbc19c959d3ac27c29998a4af4d0b5",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_05.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 29,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 49,
+   "SOURCE_LINE_SHA256": "c62898ecda8f39cc2626689f2212ea0e4e0291e4cd133c8fd0af5cba0d8e8585",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_05.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 30,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 59,
+   "SOURCE_LINE_SHA256": "3ea5c7f8048a697c1f7f07c2673a4d86248618101de45fab4f66a09d1898fca9",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_06.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 31,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 60,
+   "SOURCE_LINE_SHA256": "027847e5ea56be9c1a8b182a5f7ab45deac9531366e164f71ad12e96518e40bd",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_06.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 32,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 70,
+   "SOURCE_LINE_SHA256": "f687ea24741e1b73359f0f56c1affc66ddb493c70bdf34426f89baf4bdd989bb",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_07.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 33,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 71,
+   "SOURCE_LINE_SHA256": "6443207d3867bbe084b7192b16dcddd697ec9e6c47ee88dc46c547358f01432b",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_07.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 34,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 81,
+   "SOURCE_LINE_SHA256": "a053b8e805ee77c155512657853fb005238b236cac0fd052e430501f4dbae4b9",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_08.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 35,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 82,
+   "SOURCE_LINE_SHA256": "35687dd2757388bb4cdfaecb8408598e18654505f4df445f886a185ab17a3fd5",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_08.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 36,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 92,
+   "SOURCE_LINE_SHA256": "5adff654bb16ae4ab56fa39e5042721e46287d330bea2b2df92cc95c7ad6af4e",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_09.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 37,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 93,
+   "SOURCE_LINE_SHA256": "dcaa81a350a357c161cf579426d0642b9549a8ed0ce348a0d46b3fbbedd6fa89",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_09.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 38,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 103,
+   "SOURCE_LINE_SHA256": "fe263e51833331c840f70abbb493ce6bfeeafa1b6ad1ee8d5ccb96781ea4e62c",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_10.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 39,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 104,
+   "SOURCE_LINE_SHA256": "6993c2775a00f83c218e74b31351413dbead3a5df991ec57214c57be90200d26",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_10.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 40,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 114,
+   "SOURCE_LINE_SHA256": "59cb7e81d160f6e4232ae69ad9ef9925099ae0bcdc68e5277d6e9ab15240ff4b",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_11.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 41,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 115,
+   "SOURCE_LINE_SHA256": "1d227d6e21667244031f4694c65cf982198db01af7652cb572e3b9701bad90fc",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_11.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 42,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 125,
+   "SOURCE_LINE_SHA256": "053fc89c24a291dc872cb7eac164704498f4bf6f887d64600fcfb2f20ac393a1",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_12.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 43,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 126,
+   "SOURCE_LINE_SHA256": "6be4a79316f6794d4279c41c25e855d7992ee223fe011e92c3ac5bf58f891cb9",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_12.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 44,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 136,
+   "SOURCE_LINE_SHA256": "3c66bf73123a79cc9c80cc4e36dc875619b7cee432f4fa89d0e5f23374ac8f1a",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_13.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 45,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 137,
+   "SOURCE_LINE_SHA256": "003b2f0920b8b3e24fca181512acaccebdea217be33900c649eed0bd29cdad85",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_13.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 46,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 147,
+   "SOURCE_LINE_SHA256": "27a099a47b9a223a7b85d1b377ed3cec65523e1788e37ff88beeb10496ded584",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_14.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 47,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 148,
+   "SOURCE_LINE_SHA256": "4c1e7c0c677272a11a2dc884b23bf57f24eb28bc29da26af46ba024a91819262",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_14.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 48,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 158,
+   "SOURCE_LINE_SHA256": "e6dff290d2e36fb77bcc6de9a377b06eb7a4102982fe264d143e018c92bb29be",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_15.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 49,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 159,
+   "SOURCE_LINE_SHA256": "bff5091c7041809bc7cc25f4d71838bebf2f72d029d19b40e63386248b6edfc6",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_15.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 50,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 169,
+   "SOURCE_LINE_SHA256": "90175be9a5660df34191cdfae5c2d453fbf4c16425310c953e0f5d37265c1e80",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_16.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 51,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 170,
+   "SOURCE_LINE_SHA256": "b88502c63216ce46aead0870da22f27392bb10c0762ed4111a1d400d1bfb3601",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_16.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 52,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 180,
+   "SOURCE_LINE_SHA256": "e29a9d65189bded602804c6c7bdae3d4e510206dd6bc83c0f463ca22d62f83ec",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_01.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 53,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 181,
+   "SOURCE_LINE_SHA256": "682c99d204c4c3d5563a215ec0dc0c890be221103c65b655f4e48bbf011271c2",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_01.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 54,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 191,
+   "SOURCE_LINE_SHA256": "441cdfa13ba3c499fce9d0ca95c266dc30c77206d24d9a5a1edef19aece986a3",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_02.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 55,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 192,
+   "SOURCE_LINE_SHA256": "e7a7b4d0b66009e0c5b275385287b221484ceca8b0e159b8a6e571df4975894a",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_02.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 56,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 202,
+   "SOURCE_LINE_SHA256": "a449d7cf518be812a6a09bbaf60040132371c7adc2cb00211add3756e4252089",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_03.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 57,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 203,
+   "SOURCE_LINE_SHA256": "82df232fb872638f43496adb9e94af9fd4d3097bdfbffaea4fdcec2f2e31f538",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_03.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 58,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 213,
+   "SOURCE_LINE_SHA256": "b256843fe17d19ec01b2c908f5060622dece623025fdf9be0c6cee8a7ab6e740",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_04.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 59,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 214,
+   "SOURCE_LINE_SHA256": "b3dab37e77f2cdb61f0efa15b941f30d40d78580d1e55eefd0fb776266c2fcca",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_04.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 60,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 224,
+   "SOURCE_LINE_SHA256": "6a3fb18461e65286d9a9e66bcdf929d4dadf274576537e1c2dc31c383ba4d909",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_05.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 61,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 225,
+   "SOURCE_LINE_SHA256": "91d601b76f85abdd656815460a6a6ff89eec75ea5241259c9ffd6eb9d7cc0a6c",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_05.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 62,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 235,
+   "SOURCE_LINE_SHA256": "7856673461b259241ecee742331db612d4a6d2b7b70f150227c2d9e09cc8c1ee",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_06.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 63,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 236,
+   "SOURCE_LINE_SHA256": "b13de46d7d351eac36565497e2449c209a499f71eef47ae09de8f20d22ba60c8",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_06.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 64,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 246,
+   "SOURCE_LINE_SHA256": "51d897aabc79bf15b595ee3251ffbdde67913ef3cfe8d0de85272634a5823ab4",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_07.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 65,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 247,
+   "SOURCE_LINE_SHA256": "a238cc83ff68b9b6ca813e684e001dfb902f256513e15dfaa9f197a3023e0c33",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_07.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 66,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 257,
+   "SOURCE_LINE_SHA256": "d709304e169f533c7df7ee371ba74e23fb575592f713751255871f7d791ce7c6",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_08.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 67,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 258,
+   "SOURCE_LINE_SHA256": "c393321ad7829a48ebef1a44de1620c5a22e91255e3371d6c303fc427c760cf8",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_08.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 68,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 268,
+   "SOURCE_LINE_SHA256": "4e5c0ddbb51108c2c801806db15ba97ee6e6ec9017bed7c5860edb8d713eba52",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_09.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 69,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 269,
+   "SOURCE_LINE_SHA256": "4aca5ecbf8ed8d2319a86aad8375e0fe8c15f744367047a9b64a8d76751f42dd",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_09.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 70,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 279,
+   "SOURCE_LINE_SHA256": "95931fcd1dd63764a48838a2b28421bc177ae5157173c6c6447d25a0f6b9552c",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_10.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 71,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 280,
+   "SOURCE_LINE_SHA256": "3b4b9e8da208d662b735a5b80af941e5435e3548acc5cea5d07d008490d51ed9",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_10.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 72,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 290,
+   "SOURCE_LINE_SHA256": "2caecc896cc522509dbfa893e0ad5f4e2ea8771f0aa81df362afe656f7048126",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_11.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 73,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 291,
+   "SOURCE_LINE_SHA256": "72584e821bf103f75c55118360482f1e6c1b16c8f90898013126610e3f2bfe33",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_11.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 74,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 301,
+   "SOURCE_LINE_SHA256": "4d6efae8ac2629a88a6cbf88efd3ba3d03fe641877f9f7a8d8ccaebecf44af70",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_12.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 75,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 302,
+   "SOURCE_LINE_SHA256": "4bcf1b430178edd4ab4260118f838b21e792596119031a5215d78234f82fad29",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_12.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 76,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 312,
+   "SOURCE_LINE_SHA256": "de6174c1359e5639e1f43dc649a4120f9f51497c067cb25848617c1091a0d960",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_13.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 77,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 313,
+   "SOURCE_LINE_SHA256": "2b3a249b96fb961b21a7ae9bd309270d33ba9395902ce6430709c4adc89a4089",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_13.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 78,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 323,
+   "SOURCE_LINE_SHA256": "61f40616e017d38f921671a5eaa1615937662ab23f9bf0a2e524136349fbda41",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_14.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 79,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 324,
+   "SOURCE_LINE_SHA256": "f95bd654a6fd3ef7c504041ad540f81c41fef628645847b448ce7df10bb9451b",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_14.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 80,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 334,
+   "SOURCE_LINE_SHA256": "6688b9ea30cb715cf8abc04e66d25af7aa67d0f0066b2e4a5b1ed9c4e5912468",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_15.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 81,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 335,
+   "SOURCE_LINE_SHA256": "fe771c2797d84741258d968245d922d3dbbbadb3452acda8c20fa56cd82fa30a",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_15.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 82,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 345,
+   "SOURCE_LINE_SHA256": "00335d64c21040e6822cc0e5ebdce81a184c33341ac26939cf81bf232c1350a4",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_16.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 83,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 346,
+   "SOURCE_LINE_SHA256": "e6d5b3de4bd5fcc82a1e17ebfe0a4b064aaac2215f7e7fd728262fbfb54b3a0a",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_16.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 84,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 356,
+   "SOURCE_LINE_SHA256": "03f6b446f1e8b79a768255e03d30d13911f6bbf97994b00e3d3febb7661c0ba7",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_01.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 85,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 357,
+   "SOURCE_LINE_SHA256": "bcd1a1e565d777fe6725324cbe7c7ffc449c9f695781f6918f3f160c096ffb16",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_01.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 86,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 367,
+   "SOURCE_LINE_SHA256": "2e40915b4b818e8845c3074a00c1ef51671aed9dd481216839f8f4f513850112",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_02.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 87,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 368,
+   "SOURCE_LINE_SHA256": "6773686f1de23db714e8fbd1f52bb6c51bc7e8560cbd7ab63bf408c2822a5861",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_02.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 88,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 378,
+   "SOURCE_LINE_SHA256": "e3c1f62da06ff2cbbb99f7abb47bc7b46f64c874d831d5b1e433c241f6281012",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_03.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 89,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 379,
+   "SOURCE_LINE_SHA256": "4ede387015192731935a9006c3aa6c8908c7c2b7722a6bcc5f70d5996eb5f77b",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_03.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 90,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 389,
+   "SOURCE_LINE_SHA256": "8a17586c2d71feefde9d6b20cf96a469209e5deaceb7ca9bd1bf9975caf4632f",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_04.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 91,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 390,
+   "SOURCE_LINE_SHA256": "a1bc36bd1f233363ba97052240095fa345f9854d29955f77327034666d0d57f1",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_04.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 92,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 400,
+   "SOURCE_LINE_SHA256": "895ddab24fd8c70c51937b33526ade2946d96fd7d076932d37877de967c55258",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_05.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 93,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 401,
+   "SOURCE_LINE_SHA256": "f4682966d191c00c0eb0152de2dc4e2067268d7e8f869082178ecbb806c89865",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_05.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 94,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 411,
+   "SOURCE_LINE_SHA256": "e047524123044af2ca3476d5967c33ba91befe0cd2bc227f769dd2c44656a9fc",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_06.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 95,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 412,
+   "SOURCE_LINE_SHA256": "26b799465d47ba5aaa9e3967980034cbb34e93d6cda79c18ebd579fb45feb31b",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_06.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 96,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 422,
+   "SOURCE_LINE_SHA256": "002b0aed419c335fd78f42d4c979a06565516649605f53ef03dfa2dae105d4c1",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_07.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 97,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 423,
+   "SOURCE_LINE_SHA256": "57c5c65c7e50505db1931ff80297ce9bab43f4596ad1c297344b2cf476e8055f",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_07.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 98,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 433,
+   "SOURCE_LINE_SHA256": "b7b97a2e2082edccc57f1c75f4515fc01553b5ef4a1585cb976181033f40c10c",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_08.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 99,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 434,
+   "SOURCE_LINE_SHA256": "6cb4568812f677a7320528a29b207cc91dc04e610b4570f0ff1f45b2de81d9e2",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_08.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 100,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 444,
+   "SOURCE_LINE_SHA256": "8fee7e2ae61a23cbdb99d1f122d31707b2210500dfcde3cc2bb482b5acb6ece9",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_09.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 101,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 445,
+   "SOURCE_LINE_SHA256": "4a3b95b416509de9a1f6b43d2ec70da24b6231b66588c896359c91aa6f82c331",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_09.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 102,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 455,
+   "SOURCE_LINE_SHA256": "33f483e6fd3ca19177485d5e0742f39e449d62c5183b3c938138b7a4158b4b36",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_10.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 103,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 456,
+   "SOURCE_LINE_SHA256": "4c9a86648233f5730a0ce1bf988405b037e0d8d7db93adb9111c2ebc7699845f",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_10.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 104,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 466,
+   "SOURCE_LINE_SHA256": "2927883136659701d2853206ab10dcd29095f0407bbf07ebc69c221e9827ca52",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_11.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 105,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 467,
+   "SOURCE_LINE_SHA256": "d74243b4be33c09e613d165c820159047dc6569ad56683ca9e8b3a705b9cb29d",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_11.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 106,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 477,
+   "SOURCE_LINE_SHA256": "b3fbe447cbe90ded236826876aca525230679e1bbf3d17feacd8c34ad4280cf0",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_12.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 107,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 478,
+   "SOURCE_LINE_SHA256": "78eb89c2db05ac12c5f834fb0481985a82257f5479a3776b8e9622ce027475f6",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_12.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 108,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 488,
+   "SOURCE_LINE_SHA256": "2ff611665af80bd6722b9cc66082230a723d72325bcac8eb9dd11be5b5d676ef",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_13.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 109,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 489,
+   "SOURCE_LINE_SHA256": "ad21fdf76d5dd6602d18edf74a267c149a6097e729a16667e446a41c88f5af81",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_13.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 110,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 499,
+   "SOURCE_LINE_SHA256": "ccf855c8c6dbff38be23e600aa2f99563852f302415f9b091078021ac2af1223",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_14.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 111,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 500,
+   "SOURCE_LINE_SHA256": "f984c56ed60799907f879cdc33eab519f3fbbab3470952a9196ebb5757f186aa",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_14.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 112,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 510,
+   "SOURCE_LINE_SHA256": "20948b6470349a5f76f4fa8a499af65517b8cf712e915ee46fef1d2682075b5a",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_15.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 113,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 511,
+   "SOURCE_LINE_SHA256": "5b10e47abc1b05d358230c1f8b12cb5f1c303a886358aba99b3b13c1ecd1f842",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_15.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 114,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 521,
+   "SOURCE_LINE_SHA256": "dddeeb122bc25a193ac54df01fec64c10b969df55005107909625d7729af09ac",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_16.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 115,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 522,
+   "SOURCE_LINE_SHA256": "7b67809fc7173ea5e542ae65f1858b51d14f995333a6ef0244d5b2e55cb9a939",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_16.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 116,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 532,
+   "SOURCE_LINE_SHA256": "148dc28dd20d30e775447ebb3c9a06c59a615645bed4080ab754486b25cbf2ce",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_01.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 117,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 533,
+   "SOURCE_LINE_SHA256": "d3fcb6d8d49ce9788661d19632a51355977dd41e8d75884b3368b1399282fdb4",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_01.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 118,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 543,
+   "SOURCE_LINE_SHA256": "2fd45b6022437903790c916236c302732a52845abec0db375e8ad1e84279dea6",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_02.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 119,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 544,
+   "SOURCE_LINE_SHA256": "ccc1ddfe00d14d39a97c95cd8cb76cc218355e6e6409271b9f86a7be321d0822",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_02.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 120,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 554,
+   "SOURCE_LINE_SHA256": "38f9bf79b16e1c037b4016994f9829b475f67ac3ea89f8c19c89673282f99cad",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_03.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 121,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 555,
+   "SOURCE_LINE_SHA256": "4d65af12429fd4e46a92c773fe81a027b4d054238de7dd5228839b4336e59cc5",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_03.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 122,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 565,
+   "SOURCE_LINE_SHA256": "e5a16000841ae401a21acff13e6770992ff7e7e98ce1cc065a80b85eb7af45be",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_04.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 123,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 566,
+   "SOURCE_LINE_SHA256": "aa5f7f3be8a80386a71efff338f751a7a8f983ed8ecbe33d000d75c9031496bb",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_04.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 124,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 576,
+   "SOURCE_LINE_SHA256": "a632ca9a4068a22e1235099d903c6c99e72750e6d757b442269e55b6a6677104",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_05.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 125,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 577,
+   "SOURCE_LINE_SHA256": "9f773a182843cf51c5e15f1c817e0d46a0cc6d608d79900674701d24a61d91f8",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_05.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 126,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 587,
+   "SOURCE_LINE_SHA256": "47b9bb74e4d213818e469202014a26a96b9ccdecbdef67357868c801fd5964bd",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_06.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 127,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 588,
+   "SOURCE_LINE_SHA256": "0d86322462e616d8b8403a000618d183b8d4ee7348a9777e351d1f155f174a51",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_06.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 128,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 598,
+   "SOURCE_LINE_SHA256": "aa27c4e6d63b6982dfdec730fc91f24abd6fd1a4de5b7eff38fc3e6dc0832422",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_07.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 129,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 599,
+   "SOURCE_LINE_SHA256": "1d5528bb8b3f47e038717bec7f34af77760bc6711d963de340f9bb2df86c9ca8",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_07.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 130,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 609,
+   "SOURCE_LINE_SHA256": "1e59deaa80c2b73d75c3e8103056373dfce3ba975b9a8dc3e8bf92aa9e2ff399",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_08.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 131,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 610,
+   "SOURCE_LINE_SHA256": "a35903aaaef7c218037fe638df856a22e011f01216bb35771f73f93a1b564d5e",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_08.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 132,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 620,
+   "SOURCE_LINE_SHA256": "2c87e77a447a4de39e9a84fb7974317705825a62b38f47fbd1df71b0b268d523",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_09.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 133,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 621,
+   "SOURCE_LINE_SHA256": "bfdebea16f24880df24fd723cdf4770ccf567651d38ccbd317e202423cdcf0b0",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_09.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 134,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 631,
+   "SOURCE_LINE_SHA256": "30bdcb31b44676d3de2b2665b4d855e1994f1cd8810ae8df7f740c8ae2a8aacc",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_10.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 135,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 632,
+   "SOURCE_LINE_SHA256": "e69da3e944d1743fb07db74943fb0dd8909aa681b990961061a105eb3acbf1eb",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_10.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 136,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 642,
+   "SOURCE_LINE_SHA256": "bbc4dbabbb439436ea32b28868908359d571f91272a7a4ed0811143981898b55",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_11.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 137,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 643,
+   "SOURCE_LINE_SHA256": "a54a65c979d596fe0fe13e43041fb088c94536398ac819ad29cc768e73970b8d",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_11.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 138,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 653,
+   "SOURCE_LINE_SHA256": "a5d9910efcb8413e3ae53964b2eb280f0012ecb8682a86dfb91f019ab3dc29f8",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_12.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 139,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 654,
+   "SOURCE_LINE_SHA256": "b4f853a8bf6a0afedb990c7821e56b7cd8cc68d1162a89e65cc74625d165c077",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_12.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 140,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 664,
+   "SOURCE_LINE_SHA256": "33a720128dafbc7f323a973ac3acda1f1599fb3d2cecbc480d55bdb2f11b89d8",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_13.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 141,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 665,
+   "SOURCE_LINE_SHA256": "6416142ce4025105ee139170899e023d1b2d69d6a5a134b964526115451c5db2",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_13.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 142,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 675,
+   "SOURCE_LINE_SHA256": "6f131707eefc88010f2166e468a4d0267fdd4510c6e37838d7621fdc827147e2",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_14.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 143,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 676,
+   "SOURCE_LINE_SHA256": "73736026f32b4cf596b522b893c13502227c44f81aa7da9b39de17a113398166",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_14.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 144,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 686,
+   "SOURCE_LINE_SHA256": "d5344a18443f4ae7436d135064036512d41f717ecfc70cc6b0b1bf4347085084",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_15.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 145,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 687,
+   "SOURCE_LINE_SHA256": "6c474256a8b64235b9f5e18fd69ad5e27320e37596707700d1a2db9c4e089a7a",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_15.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 146,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 697,
+   "SOURCE_LINE_SHA256": "563dcf850596e6d3dfe546a74fd2880c772e5ebae9e4b54f9afd8c4be68335ae",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_16.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 147,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 698,
+   "SOURCE_LINE_SHA256": "da6f9b037d037d7200a4a767eb78cb7591697acc3064bb39f54608b6b9179d83",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_16.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 148,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 708,
+   "SOURCE_LINE_SHA256": "864a0d93fd629dade11dec57c6d9574de434b03ec2d2f51c096df81de6213357",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_01.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 149,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 709,
+   "SOURCE_LINE_SHA256": "7f63838d2009b7c96e9c36b14ecdd5e70b87e73d046ef1662cdf854368fc5d01",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_01.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 150,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 719,
+   "SOURCE_LINE_SHA256": "b4c50564b8ad32cc7fda876a718deb2f40ace46d125277a7d81161b1ef724288",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_02.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 151,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 720,
+   "SOURCE_LINE_SHA256": "a4adda49e492168c501a03eb8a88b53f62977f1d09a2da328e0ed6eb845c9483",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_02.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 152,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 730,
+   "SOURCE_LINE_SHA256": "dac1a8e044f95ed84b9742150777d12f61370362aabd0dbbc9f15d07ba78018d",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_03.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 153,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 731,
+   "SOURCE_LINE_SHA256": "8dc68b9a083ddc6ee5c32844142858d9b8c1e1c78d33204782a736231db6396b",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_03.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 154,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 741,
+   "SOURCE_LINE_SHA256": "c3f7cf6888b676c8b3a4ab44de3f26da43c949069973c8df01eddc01a96a91ad",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_04.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 155,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 742,
+   "SOURCE_LINE_SHA256": "a3d60d244f976daf591416872b4b472d84bfbc01bee5f5ceed696ffafd9119a1",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_04.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 156,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 752,
+   "SOURCE_LINE_SHA256": "93feceecd33ce9562a5f7cbacb7ae1d0e996114626aa7d529a0883f6e1c53fbe",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_05.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 157,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 753,
+   "SOURCE_LINE_SHA256": "72cfd2b58b142d7ddc850ab1fe849f656fdba83cdc1a94702e4328767da50a82",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_05.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 158,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 763,
+   "SOURCE_LINE_SHA256": "8c50d522cb1a5a0025d361dff3014fa2a1d25422c30d69908c6f76ff9a51a64b",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_06.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 159,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 764,
+   "SOURCE_LINE_SHA256": "ce53080f6ea233cfc471a891325fe938b432c3129a6cd486cb9e96a0f024e040",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_06.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 160,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 774,
+   "SOURCE_LINE_SHA256": "e22e9761035fb813d26c4fb7414b95f8f98068c546a2db5fae8fe61213d8b716",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_07.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 161,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 775,
+   "SOURCE_LINE_SHA256": "0411e036b323da3a160cd952f4b8ab9ac455c1888b738d2e24b5356e455807ac",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_07.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 162,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 785,
+   "SOURCE_LINE_SHA256": "34b630caa41caefcbe846046be8c4dd9d384c4c9987b47808b4003c87f75ed6e",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_08.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 163,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 786,
+   "SOURCE_LINE_SHA256": "e386c1fec87f8a04a8bce0c051e5a9a93f57d5d3dfbb3143c9984cdafecc16dd",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_08.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 164,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 796,
+   "SOURCE_LINE_SHA256": "bec7c6c3fbddaece4911eb96acd52ca072de2eb25f1f2b83af0614e0f084bea4",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_09.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 165,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 797,
+   "SOURCE_LINE_SHA256": "d942cd5b4bbe8be86cd60e39763bc8311095113b2c0dcdf0948c8dfdd2abd95f",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_09.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 166,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 807,
+   "SOURCE_LINE_SHA256": "3df5791723226aeb405fc74f928517af274d7e8f6603a24b4f47ed1b31802c74",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_10.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 167,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 808,
+   "SOURCE_LINE_SHA256": "bf4a4db882cffb9030c74fa9f7a1260ce74fc62fca5059a20cb529379b8e8745",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_10.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 168,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 818,
+   "SOURCE_LINE_SHA256": "4f3a733fa84591210703bdc7fa7906a44d345f400ac6770a006b83437a465c39",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_11.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 169,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 819,
+   "SOURCE_LINE_SHA256": "774841170960df4f76ca61b318e999c7f07dabf67f3910e547f5e052a77d5f96",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_11.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 170,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 829,
+   "SOURCE_LINE_SHA256": "776362c56a92a713d9c401a11d20ffe9a044ffb22143ab3147672d6ea70e9d39",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_12.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 171,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 830,
+   "SOURCE_LINE_SHA256": "e32465a9e53ac2015f17928792086be406139e13a7662fd454a766808e80315b",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_12.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 172,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 840,
+   "SOURCE_LINE_SHA256": "965f547e9d648788a0a329de042090b3b3d31f5e26c89c0cacabc52914f270b4",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_13.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 173,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 841,
+   "SOURCE_LINE_SHA256": "bbfe2dd63d1968e58131caec059be28effdfb4eae35c892fb9ea069623ccf74e",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_13.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 174,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 851,
+   "SOURCE_LINE_SHA256": "a2e88915df615790590caadbe4384a65ce0fcb175ed3b75a2db6405411123a45",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_14.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 175,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 852,
+   "SOURCE_LINE_SHA256": "44e1409c3df0ebbf6b830558162d649f22fa75fec6708594aca6ea83a1c6376a",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_14.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 176,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 862,
+   "SOURCE_LINE_SHA256": "2883096f0b224b219500279711c8085534b8a8c0a23d500df7305c464a043b91",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_15.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 177,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 863,
+   "SOURCE_LINE_SHA256": "d2b3d1a54fdfead96f208eab91c1fb4bf52bdf4ef7101aa4e62b495e96733281",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_15.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 178,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 873,
+   "SOURCE_LINE_SHA256": "3664254e5fa91680a68458a8e3a986db0197792e6616a38a5ccf95f4fd33b136",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_16.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 179,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 874,
+   "SOURCE_LINE_SHA256": "7065f56d4b4c59d3b3d5ff87c717644929033b98f472cd5a3e9da4662ae11b2f",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_16.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 180,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 884,
+   "SOURCE_LINE_SHA256": "5fe4bbc0357b28e3bb6907416ff1d46d7f3bdf3023e75529b51a5f075247e58c",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_01.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 181,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 885,
+   "SOURCE_LINE_SHA256": "1a67169ad8f9bdf0ef6065743d29cb0de7ee9c4cf410ddc72fd7a9802c244d3f",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_01.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 182,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 895,
+   "SOURCE_LINE_SHA256": "5acf44785d04d1a27fb713b37efd8a58b4396f148640d0e5fd61d5cd96c63663",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_02.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 183,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 896,
+   "SOURCE_LINE_SHA256": "91c5faaf8dc2894a9c70d343054e6682e857dc4d50e0e7a89e70cb915c93f737",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_02.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 184,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 906,
+   "SOURCE_LINE_SHA256": "08f435d4ce479160b52ee782d31ae3d5976f4337f8c2290c411012282ed22d66",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_03.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 185,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 907,
+   "SOURCE_LINE_SHA256": "140104a0c7fb7926c1f9280db6e7cc603b1f4e7be48ebf1db3a59a05efe1994a",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_03.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 186,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 917,
+   "SOURCE_LINE_SHA256": "e1c74757b5d6fcbe197b29ac0f9fd2250424d599fb159a5b4ea62ae6fe4a386d",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_04.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 187,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 918,
+   "SOURCE_LINE_SHA256": "30d511ffc33c21a1afe6244f06bad6046724e834901d4dcd7a3b4a30b753d36d",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_04.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 188,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 928,
+   "SOURCE_LINE_SHA256": "66ddfaee96b7af7d718ddd1e9d85404cb6ce5e973798e0bd57666a55604ceea5",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_05.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 189,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 929,
+   "SOURCE_LINE_SHA256": "8af08ef5c5234670b3bd69078fe8822e3170851844c002dba8d0cdb6ea89ca5b",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_05.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 190,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 939,
+   "SOURCE_LINE_SHA256": "b424c3c762340c808050be751424ed055ceeeffa55779d0de8aefbcba8aa1084",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_06.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 191,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 940,
+   "SOURCE_LINE_SHA256": "c5fcf9ee69304b62842073505e4db52234846ae1c663504a3fc27e40d917401d",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_06.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 192,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 950,
+   "SOURCE_LINE_SHA256": "3c4184206cc5e92d0a732932f83c25aeaaff25d3f50e389ae7de843a95453871",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_07.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 193,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 951,
+   "SOURCE_LINE_SHA256": "9d45f877ccf93a84666f8f009e4b857ac4f5b92dc5374f40fecda4aaa39c560d",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_07.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 194,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 961,
+   "SOURCE_LINE_SHA256": "1593ae6229ac10c4986faa41fd9006a0ff0ebcb1d0578e093c851e684a220b50",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_08.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 195,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 962,
+   "SOURCE_LINE_SHA256": "edf5ca68ecf909201761b6a58f6282a0ddf7ed7319bcc3b21969c5e0f39341d5",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_08.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 196,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 972,
+   "SOURCE_LINE_SHA256": "cffee157cb932eea86386d8dbffaad6db64586cedf9f07e86bda6c043d8b04aa",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_09.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 197,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 973,
+   "SOURCE_LINE_SHA256": "7dc42e28a0deaedaa0a1015b2681e16eba6fd2a6418fbedc18f905cd9280e2c3",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_09.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 198,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 983,
+   "SOURCE_LINE_SHA256": "434598c1bb3897bbfbbc1cb441232c73e19aac1e8ed20bf2a664e457e4ba4d67",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_10.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 199,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 984,
+   "SOURCE_LINE_SHA256": "28bf0f90192bef8f8fb1159af7551fdd7bcc203a43c0fee3a0a6e712481d2e0f",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_10.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 200,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 994,
+   "SOURCE_LINE_SHA256": "5da619c4e86b2297148994764a72e9a430e0d2992e947b44090bc50b47b42e28",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_11.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 201,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 995,
+   "SOURCE_LINE_SHA256": "28221f7cad8b780ac2ac0fd30f0eeb6d133f23edfe0d55dfcf0a4e01aa837c15",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_11.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 202,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 1005,
+   "SOURCE_LINE_SHA256": "21853efbb9dc294efc8e99a917945293b1165a7086c64fd84923ca0332b4efab",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_12.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 203,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 1006,
+   "SOURCE_LINE_SHA256": "b9d65c19b7c81372b945f5621b5f454d5a2ace2a2debedb11ebcf4d562718300",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_12.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 204,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 1016,
+   "SOURCE_LINE_SHA256": "1063b76d30388f3c5dd3639d4f4164eb5d2c7dc4c47cdc8ef9123c4e98037ff2",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_13.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 205,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 1017,
+   "SOURCE_LINE_SHA256": "9cf097e822d4b9aa09447147d9421a8993c37361f27a537fb7758697bd0ffdca",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_13.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 206,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 1027,
+   "SOURCE_LINE_SHA256": "25ecdc7083ec2e04a59243c1fc18dfe4186e85f933f393db64f2a18937a7d080",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_14.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 207,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 1028,
+   "SOURCE_LINE_SHA256": "7a5d47afeb46b58ef6f910a1ebdbb0c3875db8897a6f4978a9c232a6ca04096e",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_14.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 208,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 1038,
+   "SOURCE_LINE_SHA256": "afffa3c50bd6a27dd1943e7dfffdee516414739363f71c003902f012004bfd55",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_15.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 209,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 1039,
+   "SOURCE_LINE_SHA256": "ed1974c4bdcf43c12221b30082d6cc5e64d38e2717201843dde48c77a4a48a80",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_15.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 210,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 1049,
+   "SOURCE_LINE_SHA256": "2ccce94412e4e52c3d4204fd0d9111c41cdaf178200d88cb8d8bf0cfa7298f69",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_16.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 211,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 1050,
+   "SOURCE_LINE_SHA256": "1580f0c6c26a6b298fbeaaa3aeb1e9555073dd96b619b2da10b536ff4f949387",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_16.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 212,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 1060,
+   "SOURCE_LINE_SHA256": "7ef66c5e99d96274ba20839dfcd44285238b98721fa18d838f643d91c785b95a",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<REPO>/iclr2027_revision/phase0/bridge/vcc_z_label_bridge.parquet\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 213,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 1061,
+   "SOURCE_LINE_SHA256": "ac4da26b2082c3d53648544d13614f2be39193c9fb737b3301abd6d3dafa979e",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<REPO>/iclr2027_revision/phase0/bridge/vcc_z_label_bridge.parquet\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 214,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 1071,
+   "SOURCE_LINE_SHA256": "370669bcc5e3fe43cd764f72fca4eda1b9d6038e54c3d499cdb22dfbaa5a22c8",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<B-STORAGE>/MADA/data/metadata/vcc/final_labels.parquet\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 215,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 1072,
+   "SOURCE_LINE_SHA256": "8cad51e6e4838bc3292512a7f5be72cc0234d65cf5469746cabf36f56c9ee9a2",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<B-STORAGE>/MADA/data/metadata/vcc/final_labels.parquet\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 216,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 1082,
+   "SOURCE_LINE_SHA256": "a0a2d691d04d4e66ab8158d20556ffd6eb79f908410fe56bb20dcea3c82ffa77",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"requested_path\": \"<REPO>/iclr2027_revision/provenance/phaseB_baseline/phaseB_z_scaler_state.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 217,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_input_access_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 1083,
+   "SOURCE_LINE_SHA256": "4fbab3aea081b7f3292598516fc53e99271c1209f1913df9219708f6b88913c0",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"resolved_realpath\": \"<REPO>/iclr2027_revision/provenance/phaseB_baseline/phaseB_z_scaler_state.npz\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 218,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_environment.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 3,
+   "SOURCE_LINE_SHA256": "c6c12101fdaa9dbb0be9edc7cbac72aaad857ebf3a0512ea3515aba4f89f65f1",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": " \"PYTHON_EXECUTABLE\": \"<PHASEB-OUT>/environment_hfm4/venv/bin/python\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 219,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_environment.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 26,
+   "SOURCE_LINE_SHA256": "6a41639af6c78b36fd9949abbeca7f2d599dff1fc77ba2f65599c4ad7903a4dc",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"filepath\": \"<PHASEB-OUT>/environment_hfm4/venv/lib/python3.13/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 220,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_environment.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 36,
+   "SOURCE_LINE_SHA256": "c2ccdcfff172b12428fdb257482abe669b8121ef302016b42ebb1df5ff957903",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"filepath\": \"<PHASEB-OUT>/environment_hfm4/venv/lib/python3.13/site-packages/scipy.libs/libscipy_openblas-6cdc3b4a.so\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 221,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_environment.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 46,
+   "SOURCE_LINE_SHA256": "02f619f5de3661cbb95e408618b158cc160c88326a7b6a298994e870f13db2da",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "   \"filepath\": \"<PHASEB-OUT>/environment_hfm4/venv/lib/python3.13/site-packages/scikit_learn.libs/libgomp-e985bcbb.so.1.0.0\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 222,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_run_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 4,
+   "SOURCE_LINE_SHA256": "c4ee6b1d3fe05b77becacbde9d3279fd063b0b75cba27c281662519c3a16a3b5",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": " \"DMECH_EXTERNAL_RUN_ROOT\": \"<PHASEB-OUT>/phaseB/dmech_tv_20260829T212338Z_64e44afe\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 223,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_run_manifest.sanitized.json",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 8,
+   "SOURCE_LINE_SHA256": "5bbdcb0fb22d67f04d5fa21304cf9a1ebb3f27a09ad95366ec2581f3af1fc2a5",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": " \"DMECH_RUNNER_PATH\": \"<REPO>/iclr2027_revision/pipeline/run_dmech_tv.py\","
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 224,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_execution.sanitized.log",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 1,
+   "SOURCE_LINE_SHA256": "492d129719bc38df298a7dda07ac683fcd6c5e20af1b5f1ebd28e18c94ee67ce",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "[2026-08-29T21:23:39Z] D-MECH one-shot execution start | out_root=<PHASEB-OUT>/phaseB/dmech_tv_20260829T212338Z_64e44afe"
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 225,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_execution.sanitized.log",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 2,
+   "SOURCE_LINE_SHA256": "7b6ea2082dfffdce3dc24d520d13cebc09c8ea90c2e4fae60e1e580c0e9b7f19",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "[2026-08-29T21:23:39Z] r2_pooled bound VERBATIM from <REPO>/iclr2027_revision/pipeline/phase1_harness.py (module not imported); function-source sha256=84c5df139b6d3a2ded8c8e0d372eadcead8389daf56f77c3cbf975abae99d808"
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 226,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_execution.sanitized.log",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 9,
+   "SOURCE_LINE_SHA256": "24d8580dae8652c7eddb2c2444d322b40fb9fde54439cf371e86a6796d9e1f50",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "[2026-08-29T21:23:39Z] [guard] PASS boundary_project_a_rejected: PhaseBError: BOUNDARY VIOLATION: probe resolves inside Project-A root <EXT-MOUNT>/IGA_NeurIPS: <EXT-MOUNT>/IGA_NeurIPS/x"
+  },
+  {
+   "SANITIZED_CHANGE_INDEX": 227,
+   "SANITIZED_DERIVED_ARTIFACT": "dmech_execution.sanitized.log",
+   "SOURCE_LINE_NUMBER_OR_FIELD": 16,
+   "SOURCE_LINE_SHA256": "f99e705d98a7767d346d950ce12b0bc9712927d4cef6e780a37b80786282d489",
+   "CHANGE_CATEGORY": "ABSOLUTE_PATH",
+   "SANITIZED_VALUE": "[2026-08-29T21:23:39Z] [guard] PASS existing_output_dir_rejected: FileExistsError: [Errno 17] File exists: '<PHASEB-OUT>/phaseB/dmech_tv_20260829T212338Z_64e44afe'"
+  }
+ ]
+}

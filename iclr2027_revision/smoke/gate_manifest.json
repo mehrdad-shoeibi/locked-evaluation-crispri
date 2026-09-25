@@ -1,0 +1,36 @@
+{
+  "session": "L6 smoke test + 26B gate (first executing session)",
+  "recorded_local": "2026-08-10T21:56:22",
+  "kill_switch": "2026-09-01T00:00:00",
+  "env": "mada_phaseb_geneformer (python 3.10.20, torch 2.3.1+cu121, transformers 4.49.0)",
+  "checkpoint_sha256": "fff5cba29ddd8792991fa77b4872246fbe548a178cebda3775cdc72b67780e7f",
+  "oracle": {"verdict": "EXACT", "max_abs_diff": 4.76837158203125e-07, "cosine_min": 0.9999999999999423, "n_compared": 1500},
+  "throughput": {
+    "rate_is": "single-GPU (NVIDIA TITAN RTX, cuda:1)",
+    "steady_state_cells_per_sec_median": 7.6418,
+    "steady_state_p05": 7.6245, "steady_state_p95": 7.6700, "n_steady_chunks": 4,
+    "naive_end_to_end_cells_per_sec": 7.3432,
+    "startup_sec_one_time": 0.51,
+    "determinism_max_abs_diff": 0.0,
+    "peak_vram_alloc_gb": 8.57, "peak_vram_reserved_gb": 13.27
+  },
+  "gate": {
+    "cells_to_embed": 292415,
+    "rate_cells_per_sec_used": 7.6418,
+    "rate_assumption": "single-GPU (conservative; two TITAN RTX cards could ~halve wall-clock)",
+    "projected_hours": 10.629,
+    "startup_overhead_hours": 0.330,
+    "total_projected_hours": 10.959,
+    "safety_adjusted_hours_2x": 21.918,
+    "assumed_start": "2026-08-10T21:56 (immediate, machine local now)",
+    "calendar_hours_to_kill_switch": 506.1,
+    "calendar_days_to_kill_switch": 21.09,
+    "required_slack_days": 5,
+    "slack_days_after_safety_adjusted": 20.17,
+    "verdict": "GO"
+  },
+  "disk": {"free_gb": 77, "projected_cache_gb_embeddings_only": 0.9, "projected_cache_gb_full_retention": 16, "no_go_on_disk": false},
+  "x_cell_accumulator": "NOT_BUILT (Phase-0 item; not a smoke-test dependency)",
+  "mada_writes": "NONE",
+  "full_extraction_started": false
+}

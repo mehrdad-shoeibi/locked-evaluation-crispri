@@ -1,0 +1,39 @@
+{
+  "MAG_LINEAR": {
+    "test_r2": 0.20819659225166565,
+    "manuscript": 0.208,
+    "delta": 0.00019659225166565597,
+    "pass": true,
+    "model": "sklearn LinearRegression"
+  },
+  "RF_X_MTILDE": {
+    "test_r2_mean": 0.3704,
+    "test_r2_sd": 0.0035,
+    "manuscript": 0.37,
+    "pass": true,
+    "note": "reused from first gate run (RF config unchanged, deterministic per seed)"
+  },
+  "SPSM": {
+    "test_r2_mean": 0.07732140031146335,
+    "test_r2_sd": 0.026318139201664734,
+    "per_seed": [
+      0.07851345706278456,
+      0.10302325591083816,
+      0.05042748796076735
+    ],
+    "manuscript": 0.082,
+    "pass": true
+  },
+  "MAG_SPSM": {
+    "test_r2_mean": 0.2251414775839875,
+    "test_r2_sd": 0.016800637499358426,
+    "per_seed": [
+      0.21833556939189913,
+      0.24427723596424933,
+      0.21281162739581405
+    ],
+    "manuscript": 0.225,
+    "pass": true
+  },
+  "GATE": true
+}

@@ -1,0 +1,73 @@
+{
+  "selection": {
+    "z": {
+      "selected": "RF",
+      "runner_up": "HistGB",
+      "margin": 0.09255262292657793,
+      "best_val_mean": 0.12148771110855676,
+      "seed_sd": 0.006203838364862052,
+      "margin_inside_seed_sd": false
+    },
+    "zm": {
+      "selected": "RF",
+      "runner_up": "HistGB",
+      "margin": 0.04008514077823533,
+      "best_val_mean": -0.27029186217274154,
+      "seed_sd": 0.011926190110708633,
+      "margin_inside_seed_sd": false
+    },
+    "C1": {
+      "selected": "HistGB",
+      "runner_up": "RF",
+      "margin": 0.015000895223604774,
+      "best_val_mean": -0.04329755964031031,
+      "seed_sd": 0.0014986863715639822,
+      "margin_inside_seed_sd": false
+    },
+    "C2": {
+      "selected": "RF",
+      "runner_up": "HistGB",
+      "margin": 0.2004436339890881,
+      "best_val_mean": 0.06631263819256998,
+      "seed_sd": 0.006493836919284715,
+      "margin_inside_seed_sd": false
+    },
+    "C3": {
+      "selected": "HistGB",
+      "runner_up": "RF",
+      "margin": 0.13025666701169736,
+      "best_val_mean": -0.0393602375616684,
+      "seed_sd": 0.0012161650039825608,
+      "margin_inside_seed_sd": false
+    },
+    "C4": {
+      "selected": "RF",
+      "runner_up": "HistGB",
+      "margin": 0.09287999600661379,
+      "best_val_mean": 0.12151325227095074,
+      "seed_sd": 0.004193374587332542,
+      "margin_inside_seed_sd": false
+    },
+    "C5": {
+      "selected": "RF",
+      "runner_up": "HistGB",
+      "margin": 0.09630395838545276,
+      "best_val_mean": 0.12249538218093199,
+      "seed_sd": 0.004935943890931153,
+      "margin_inside_seed_sd": false
+    }
+  },
+  "criterion": "VCC validation R2, independently per arm",
+  "frozen_at": "2026-08-12T15:25:17",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "families": [
+    "Ridge",
+    "RF",
+    "HistGB",
+    "SPSM"
+  ]
+}

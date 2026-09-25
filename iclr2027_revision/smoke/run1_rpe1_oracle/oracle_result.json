@@ -1,0 +1,27 @@
+{
+  "n_selected": 1500,
+  "n_compared": 1500,
+  "n_missing_in_new": 0,
+  "chunks": [
+    0,
+    1,
+    2
+  ],
+  "per_chunk": 500,
+  "max_abs_diff": 4.76837158203125e-07,
+  "mean_abs_diff": 1.4830692565384298e-10,
+  "median_abs_diff": 0.0,
+  "p95_abs_diff": 0.0,
+  "p99_abs_diff": 0.0,
+  "n_gt_1e-6": 0,
+  "n_gt_1e-4": 0,
+  "n_gt_1e-3": 0,
+  "n_entries_total": 1152000,
+  "cosine_min": 0.9999999999999423,
+  "cosine_median": 0.9999999999999771,
+  "tok_sec": 5.76299786567688,
+  "emb_sec": 186.77708053588867,
+  "transformers": "4.49.0",
+  "torch": "2.3.1+cu121",
+  "ORACLE": "EXACT"
+}

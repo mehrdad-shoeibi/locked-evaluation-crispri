@@ -1,0 +1,31 @@
+{
+ "PURPOSE": "Two runs hard-stopped BEFORE the pre-run freeze and before any scientific Ridge fit. Neither is a scientific run. Both external roots are retained, never reused or overwritten.",
+ "ABORTS": [
+  {
+   "RUN_ROOT_BASENAME": "dmech_tv_20260829T212123Z_64e44afe",
+   "PRE_RUN_FREEZE_REACHED": "NO",
+   "RIDGE_SCIENTIFIC_FIT_COUNT": 0,
+   "DMECH_RESULT_OBSERVED": "NO",
+   "CANDIDATE_VALIDATION_R2_COMPUTED": "NO",
+   "RUN_ROOT_REUSED_OR_OVERWRITTEN": "NO",
+   "REASON": "Direct import of phase1_harness was not available in the locked Phase-B environment. Before any result was observed, the successful runner adopted the governed H-FM4 precedent of programmatically extracting the exact SHA-verified r2_pooled function source.",
+   "ARTIFACTS": {
+    "dmech_execution.log": "ea18697ae175f1c6b9fffba29fe6dd29024bfdc3b6980af6c0f58810ba13509f",
+    "dmech_run_manifest.json": "6c378e468bf0d3f374db2f76dce296716ff57553f5e3d4a95bf2600abe67f513"
+   }
+  },
+  {
+   "RUN_ROOT_BASENAME": "dmech_tv_20260829T212303Z_64e44afe",
+   "PRE_RUN_FREEZE_REACHED": "NO",
+   "RIDGE_SCIENTIFIC_FIT_COUNT": 0,
+   "DMECH_RESULT_OBSERVED": "NO",
+   "CANDIDATE_VALIDATION_R2_COMPUTED": "NO",
+   "RUN_ROOT_REUSED_OR_OVERWRITTEN": "NO",
+   "REASON": "The guard harness misclassified a correct PhaseBError refusal because the runner-local exception class and the module exception class were distinct Python types. The classification logic was corrected before any scientific result was observed.",
+   "ARTIFACTS": {
+    "dmech_execution.log": "2ba0f7014d63da321414c2b0d07896e7b568ce7e20ce4e781d41ba6bac3e72ed",
+    "dmech_run_manifest.json": "302b85748f67c0c603c587eb2d6c1d71c0d1588f85ab94ee2148c4ffe45a6e03"
+   }
+  }
+ ]
+}

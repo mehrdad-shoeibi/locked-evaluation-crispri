@@ -1,0 +1,748 @@
+{
+  "ACCESSES": [
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_01.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_02.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_03.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_04.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_05.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_06.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_07.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_08.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_09.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_10.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_11.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_12.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_13.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_14.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_15.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_1_16.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_01.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_02.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_03.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_04.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_05.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_06.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_07.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_08.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_09.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_10.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_11.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_12.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_13.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_14.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_15.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_2_16.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_01.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_02.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_03.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_04.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_05.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_06.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_07.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_08.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_09.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_10.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_11.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_12.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_13.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_14.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_15.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/train/Flex_3_16.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "iclr2027_revision/phase0/bridge/vcc_z_label_bridge.parquet",
+      "role": "z bridge (key cols + 768 gf_z_emb_* only)",
+      "split": "train",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "iclr2027_revision/phase0/controls/c2_projection_2000x768.npy",
+      "role": "frozen C2 projection matrix R (2000x768)",
+      "split": "ALL",
+      "read_only": true,
+      "sha256": "e5bf7ce0f07cd68d73c41529b7f01441b1b5a6f9193d663bc28bc6f974d8f41a"
+    },
+    {
+      "path": "iclr2027_revision/phase0/m_tilde/m_tilde_VCC_train.npz",
+      "role": "m_tilde targets (m_zscored, 4 components)",
+      "split": "train",
+      "read_only": true,
+      "sha256": "ea7784132fbf639c521d53dd01a26c6c72f16e9cdd7e756559ba473ef219ad23"
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_01.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_02.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_03.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_04.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_05.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_06.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_07.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_08.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_09.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_10.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_11.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_12.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_13.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_14.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_15.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_1_16.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_01.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_02.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_03.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_04.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_05.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_06.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_07.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_08.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_09.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_10.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_11.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_12.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_13.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_14.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_15.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_2_16.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_01.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_02.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_03.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_04.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_05.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_06.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_07.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_08.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_09.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_10.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_11.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_12.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_13.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_14.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_15.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "<B-STORAGE>/IGA_NeurIPS/cache/vcc/variants/delta_hvg/shards/val/Flex_3_16.npz",
+      "role": "delta_hvg shard x (key 'x' only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "iclr2027_revision/phase0/bridge/vcc_z_label_bridge.parquet",
+      "role": "z bridge (key cols + 768 gf_z_emb_* only)",
+      "split": "val",
+      "read_only": true,
+      "sha256": null
+    },
+    {
+      "path": "iclr2027_revision/phase0/controls/c2_projection_2000x768.npy",
+      "role": "frozen C2 projection matrix R (2000x768)",
+      "split": "ALL",
+      "read_only": true,
+      "sha256": "e5bf7ce0f07cd68d73c41529b7f01441b1b5a6f9193d663bc28bc6f974d8f41a"
+    },
+    {
+      "path": "iclr2027_revision/phase0/m_tilde/m_tilde_VCC_val.npz",
+      "role": "m_tilde targets (m_zscored, 4 components)",
+      "split": "val",
+      "read_only": true,
+      "sha256": "4f0e7d9999cebb89e1739d8d140a9d2a19df926a2d0912856fa7477384dfd763"
+    },
+    {
+      "path": "iclr2027_revision/provenance/phaseB_baseline/phaseB_z_scaler_state.npz",
+      "role": "canonical Phase-B z scaler state (LOAD ONLY)",
+      "split": "train-fitted",
+      "read_only": true,
+      "sha256": "ebf55308f3c6e62e43cd8b9aba084413549036c0f7e23a987ee6b8b390672e0e"
+    },
+    {
+      "path": "iclr2027_revision/provenance/phaseB_baseline/phaseB_c2_scaler_state.npz",
+      "role": "canonical Phase-B c2 scaler state (LOAD ONLY)",
+      "split": "train-fitted",
+      "read_only": true,
+      "sha256": "2f6ae19992c7ec7422a3b4a8fe4fea21750a40fb862ecc15acc177d60593600d"
+    },
+    {
+      "path": "iclr2027_revision/provenance/phaseB_baseline/phaseB_ceiling_x_scaler_state.npz",
+      "role": "canonical Phase-B ceiling_x scaler state (LOAD ONLY)",
+      "split": "train-fitted",
+      "read_only": true,
+      "sha256": "827077e84b40844ccd5aa30fb78b8b0c2571fe98c96d4e1bd9b62bd914892766"
+    }
+  ],
+  "VCC_TEST_SCIENTIFIC_INPUT_OPENED": "NO",
+  "EXTERNAL_SCIENTIFIC_INPUT_OPENED": "NO",
+  "PHASE4_EXT_PREDICTIONS_OPENED": "NO",
+  "PROJECT_A_CONTENT_READ": "NO",
+  "VCC_TEST_FEATURE_OPEN_COUNT": 0,
+  "VCC_TEST_TARGET_OPEN_COUNT": 0,
+  "VCC_TEST_PATH_OPEN_COUNT": 0,
+  "Y_OR_LABEL_COLUMN_REQUESTED": "NO",
+  "note": "every scientific path opened by this runner is listed above"
+}

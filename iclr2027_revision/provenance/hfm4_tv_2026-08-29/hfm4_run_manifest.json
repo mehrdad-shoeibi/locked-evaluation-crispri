@@ -1,0 +1,227 @@
+{
+  "run_id": "hfm4_20260829T082844Z_b63c2a09324b",
+  "utc_start": "2026-08-29T08:28:44Z",
+  "utc_end": "2026-08-29T08:29:36Z",
+  "git": {
+    "sha": "b63c2a09324bd62e1e85c201344821e20c36de8a",
+    "branch": "iclr2027-r2",
+    "dirty": false
+  },
+  "command": [
+    "iclr2027_revision/pipeline/run_hfm4_tv.py",
+    "--out-root",
+    "/home/mehrdad/iclr2027_phaseB_out/phaseB/hfm4_tv_20260829T082843Z_b63c2a0"
+  ],
+  "output_root": "/home/mehrdad/iclr2027_phaseB_out/phaseB/hfm4_tv_20260829T082843Z_b63c2a0",
+  "scientific_status": "TRAIN_VALIDATION_ONLY_SUPPORTING_DIAGNOSTIC",
+  "governing_documents": {
+    "iclr2027_revision/experiment_specs/option_b_geneformer_experiment_lock.md": "6321daacafcaee01a0b97253d19968218104051a9a2e044482849a0ada0265e5",
+    "iclr2027_revision/experiment_specs/part1_scientific.md": "55f2f778563dedef1c487989d6d318a4b951867c1460eef35946cc148f1131df",
+    "iclr2027_revision/experiment_specs/implementation_preflight.md": "468e5d97aca4ac306d5ae102aa510eda29f28a5d06d5ffbe1440a56341e4bc44",
+    "iclr2027_revision/experiment_specs/hfm4_execution_note.md": "1b871c030a2489007282916386998dc7b73e350e15c63a0781776f1a51e89128",
+    "iclr2027_revision/experiment_specs/lock_amendment_A10_phaseB_numerical_baseline.md": "0d4fb9b270b04e59a9430da0f9bc1de9f802b6337c18d02ecf06529352b942a0",
+    "iclr2027_revision/pipeline/phaseB_preprocessing.py": "39063e4a0ec7e4af097597837dc9dc95c4839c9e21b6aa5e2ab08d9520dd07cb",
+    "iclr2027_revision/pipeline/run_hfm4_tv.py": "409004e573af08f4059a7b2ccd25498f7a5941ee063ee3ae79c88896366135dc"
+  },
+  "environment_lock": {
+    "iclr2027_revision/environment/phaseB/phaseB_requirements_locked.txt": "6f1881604a6026792ef8f56568f58e37c164ea691b5937e2c0f1abdf8335a17f",
+    "iclr2027_revision/environment/phaseB/phaseB_environment_README.md": "d676cc4699e40ba6191d5130ae018263a10d8291bd4b9cb46938dc6a604bfb03",
+    "iclr2027_revision/provenance/PHASEB_NUMERICAL_BASELINE_MANIFEST.json": "da7da5adeb1b74a5b4c8b43874da4585e16f65f5e1d5c400c84037e664d0087c"
+  },
+  "environment": {
+    "python": "3.13.12",
+    "python_full": "3.13.12 | packaged by conda-forge | (main, Feb  5 2026, 05:53:46) [GCC 14.3.0]",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.0",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0",
+    "pyarrow": "24.0.0",
+    "executable": "/home/mehrdad/iclr2027_phaseB_out/environment_hfm4/venv/bin/python",
+    "torch": null,
+    "cuda": null,
+    "gpu_model": null,
+    "driver": null,
+    "thread_env": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    },
+    "threadpool_info": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "/home/mehrdad/iclr2027_phaseB_out/environment_hfm4/venv/lib/python3.13/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so",
+        "version": "0.3.31.188.0",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "/home/mehrdad/iclr2027_phaseB_out/environment_hfm4/venv/lib/python3.13/site-packages/scipy.libs/libscipy_openblas-6cdc3b4a.so",
+        "version": "0.3.30",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      },
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "libgomp",
+        "filepath": "/home/mehrdad/iclr2027_phaseB_out/environment_hfm4/venv/lib/python3.13/site-packages/scikit_learn.libs/libgomp-e985bcbb.so.1.0.0",
+        "version": null
+      }
+    ],
+    "hostname_PRIVATE_LOCAL_PROVENANCE_ONLY": "titans"
+  },
+  "thread_policy": {
+    "requested": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    },
+    "realized_num_threads": [
+      1,
+      1,
+      1
+    ],
+    "check": "PASS"
+  },
+  "canonical_row_order": "sorted(glob(shards/<split>/*.npz)) then stored sample_ids order (note \u00a711 D3A)",
+  "canonical_key": "(split, batch_name, sample_id) == bridge (split, batch, target_gene)",
+  "row_order_validation": {
+    "train": {
+      "split": "train",
+      "bridge_split": "training",
+      "shard_dir": "train",
+      "SHARDS": 48,
+      "ROWS": 5740,
+      "SHARD_KEYS_UNIQUE": true,
+      "BRIDGE_KEYS_UNIQUE": true,
+      "KEY_SET_EQUAL": true,
+      "DUPLICATE_KEYS": 0,
+      "MISSING_KEYS": 0,
+      "EXTRA_KEYS": 0,
+      "PHYSICAL_BRIDGE_SEQUENCE_EQUAL": true,
+      "X_PROJECTION_SHA256": "35b7874de691cecd981d617c1253e88e4682fbd25617b59bea0ec7f692bf2800",
+      "Z_PROJECTION_SHA256": "4d34b8c45ebb06ed3f0390e04789db38b2f6982fd23562e5c24554ae0e5658dd",
+      "C2_PROJECTION_SHA256": "069f5c1b60dfbf1dc7e08080a07d7caf45e5da7e8a100b9084117659972cbab9",
+      "C2_MATRIX_SHA256": "e5bf7ce0f07cd68d73c41529b7f01441b1b5a6f9193d663bc28bc6f974d8f41a"
+    },
+    "val": {
+      "split": "val",
+      "bridge_split": "validation",
+      "shard_dir": "val",
+      "SHARDS": 48,
+      "ROWS": 2052,
+      "SHARD_KEYS_UNIQUE": true,
+      "BRIDGE_KEYS_UNIQUE": true,
+      "KEY_SET_EQUAL": true,
+      "DUPLICATE_KEYS": 0,
+      "MISSING_KEYS": 0,
+      "EXTRA_KEYS": 0,
+      "PHYSICAL_BRIDGE_SEQUENCE_EQUAL": true,
+      "X_PROJECTION_SHA256": "b0a18d657a7ace64e0a097b60d18934336a97aa22be2c3a62157a0d7c797f907",
+      "Z_PROJECTION_SHA256": "3b498578e99adeefd6aafe818a3d6cbe4fe98fc51489f3d362a7f5779f0331de",
+      "C2_PROJECTION_SHA256": "645712c3bfab14844a6838fc010d553762e0cb435a878672fd93dff3d9cd45a0",
+      "C2_MATRIX_SHA256": "e5bf7ce0f07cd68d73c41529b7f01441b1b5a6f9193d663bc28bc6f974d8f41a"
+    }
+  },
+  "split_counts": {
+    "training": 5740,
+    "validation": 2052
+  },
+  "alpha_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "scalers": {
+    "z": {
+      "artifact": "iclr2027_revision/provenance/phaseB_baseline/phaseB_z_scaler_state.npz",
+      "sha256": "ebf55308f3c6e62e43cd8b9aba084413549036c0f7e23a987ee6b8b390672e0e",
+      "n_features_in_": 768,
+      "n_samples_seen_": 5740,
+      "state_digests": {
+        "mean_": "1cb265f21694c3a0825e2a1eae4b8dd82d0cb539ef49dff0b705eda049678687",
+        "scale_": "075e8d24c273a6e71ef408581233190c3878741aa2cf64479218e531e2b3efad",
+        "var_": "3951b5c57c69066b3ff41de91b85ac12ebe6e43d37662823de42a4f279b8185c"
+      }
+    },
+    "c2": {
+      "artifact": "iclr2027_revision/provenance/phaseB_baseline/phaseB_c2_scaler_state.npz",
+      "sha256": "2f6ae19992c7ec7422a3b4a8fe4fea21750a40fb862ecc15acc177d60593600d",
+      "n_features_in_": 768,
+      "n_samples_seen_": 5740,
+      "state_digests": {
+        "mean_": "84539b4a31ec27df6285ffaa4036b8d0ceaadb668e365f72fdf6034f17d81768",
+        "scale_": "42771f8f7fbc55ff0ab36cafb11c4e11879ee53d614daa99211360bb2f6eca00",
+        "var_": "0dee55c68bd41c0d3c3549fe5fb2372b3cacbabfb82b3b3ddfb9cc6f7eb53133"
+      }
+    },
+    "ceiling_x": {
+      "artifact": "iclr2027_revision/provenance/phaseB_baseline/phaseB_ceiling_x_scaler_state.npz",
+      "sha256": "827077e84b40844ccd5aa30fb78b8b0c2571fe98c96d4e1bd9b62bd914892766",
+      "n_features_in_": 2000,
+      "n_samples_seen_": 5740,
+      "state_digests": {
+        "mean_": "d5b5c06d73381756656ef8067d317613743affe35281526a75840b8bfd5481ff",
+        "scale_": "2de9be15d282c4133005ff0ea9e878cf1f481283070b26190346ded997a38fc6",
+        "var_": "9d1afcd6f6146585a901488590858e80772f94ce871a96084cc015276ef6e4e6"
+      }
+    },
+    "C3_scaler": "REUSES the loaded z scaler (lock:171) \u2014 no C3 scaler exists",
+    "ceiling_scaler_persisted_phase0_counterpart": "NONE (execution note \u00a710 D3E)"
+  },
+  "scaler_provenance": "A10 LOAD-ONLY; artifact SHA-256 verified against PHASEB_NUMERICAL_BASELINE_MANIFEST.json",
+  "c2_matrix_sha256": "e5bf7ce0f07cd68d73c41529b7f01441b1b5a6f9193d663bc28bc6f974d8f41a",
+  "c3_seeds": {
+    "train": {
+      "split_index": 0,
+      "seed": 20270103
+    },
+    "val": {
+      "split_index": 1,
+      "seed": 20270104
+    }
+  },
+  "STANDARD_SCALER_FIT_CALL_COUNT_REAL_RUN": 0,
+  "STANDARD_SCALER_FIT_TRANSFORM_CALL_COUNT_REAL_RUN": 0,
+  "UNIQUE_SCIENTIFIC_ALPHA_EVALUATIONS": 112,
+  "TOTAL_RIDGE_FIT_CALLS": 336,
+  "M_TILDE_TRAIN_LOADED": "YES",
+  "M_TILDE_VALIDATION_LOADED": "YES",
+  "M_TILDE_TEST_LOADED": "NO",
+  "M_TILDE_EXTERNAL_LOADED": "NO",
+  "VCC_TEST_ACCESSED": "NO",
+  "EXTERNAL_OUTCOMES_ACCESSED": "NO",
+  "FM_INFERENCE_PERFORMED": "NO",
+  "GPU_WORKLOAD": "NO",
+  "HFM4_INTERVAL_COMPUTED": "NO",
+  "HFM4_BOOTSTRAP_COMPUTED": "NO",
+  "HFM4_PVALUE_COMPUTED": "NO",
+  "ORIGINAL_TEST_LEVEL_HFM4": "UNRESOLVED (execution note \u00a717)",
+  "RUN_STATUS": "COMPLETE",
+  "output_sha256": {
+    "HFM4_PRE_RUN_FREEZE.json": "d1459559acc3c52f0dc71c4051eb300499c6ca3a0628801e23fcc8cc74a2a91a",
+    "HFM4_PRE_RUN_FREEZE.md": "3a621a04a1d798eea6e2999cd2713407ae46006e7f61c4747a6701f35d62fb68",
+    "hfm4_results.json": "0f5cd1c9f9a53e512a859b882311c0fc3de20c8f550faf2820a44be58c57dd71",
+    "hfm4_results.csv": "711c769286f012342e813fa6d927942c14d60b3ed1a962e884e944ee89561009",
+    "hfm4_guard_tests.json": "10e80c5cdaa7216daa6ca69ec52cae2ea2de1461df6c1eb31ec9b7bb8f44b6b0",
+    "hfm4_input_access_manifest.json": "28bf638955bb84237e0c2b342c4440e98d5d3014ec08dfd001d9d2964cb9c01a",
+    "hfm4_environment.json": "551a31bdbffb76cc7bad9a29fd041e1b1563cd302f2303197fbfc372a5d65b2d"
+  }
+}

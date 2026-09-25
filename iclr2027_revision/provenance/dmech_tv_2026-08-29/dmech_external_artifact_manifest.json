@@ -1,0 +1,123 @@
+{
+ "SUCCESSFUL_RUN_ROOT_BASENAME": "dmech_tv_20260829T212338Z_64e44afe",
+ "DMECH_EXECUTION_STATUS": "SUCCESS",
+ "DMECH_RESULT_OBSERVED": "YES",
+ "PRE_RUN_FREEZE_REACHED": "YES",
+ "DMECH_PRE_RESULT_AUTHORITY": "A11 repository lock",
+ "A11_SHA256": "4f3308eb8b9733b741b7eb4d1e2a2940ca29d050b315c61058d232fb9911a483",
+ "PLAN_SHA256": "fb976c859bd72571c929ffc78e2b2c261d450bc3ac4a759bfd215161d44913cd",
+ "CLAUDE_PRE_RESULT_NOTE_AUTHORITY": "NON_AUTHORITATIVE_WORKING_RECORD",
+ "CLAUDE_PRE_RESULT_NOTE_PRESENT": "NO - no such file exists in this repository or on this filesystem",
+ "DMECH_RUNNER_SHA256": "dac0690af2c73bf51d01145ea6bdf8afbe20adc0fa1b8fb6c00f5aa771a04d79",
+ "DMECH_RESOLVED_PATHS_SHA256": "236b4f5b239e9135b972f885ba8b3ccdcf432805d2c0ec16547843cadd66cf2f",
+ "EXTERNAL_ARTIFACT_MANIFEST": [
+  {
+   "LOGICAL_ARTIFACT_NAME": "DMECH_PRE_RUN_FREEZE.json",
+   "SOURCE_SHA256": "a32b4ee5312de158b46dfde3ebf6d418af944da3977dca8c34b61f4b6472fb29",
+   "ARCHIVAL_STATUS": "SANITIZED_DERIVED_COPY_COMMITTED",
+   "REPOSITORY_DERIVED_PATH_IF_ANY": "iclr2027_revision/provenance/dmech_tv_2026-08-29/DMECH_PRE_RUN_FREEZE.sanitized.json",
+   "DERIVED_SHA256_IF_ANY": "fafa131176daae6bef0cdfe4ce3e012b1ec8821d4cbfc1decf1603ba16a3c4f3",
+   "SANITIZED": "YES",
+   "REASON": "Derived summary; scientific values, counters, guards and hashes byte-invariant (residual-equality proof PASS)."
+  },
+  {
+   "LOGICAL_ARTIFACT_NAME": "DMECH_PRE_RUN_FREEZE.md",
+   "SOURCE_SHA256": "3ed4fbbe030c6a6dc915e646bb6363e26fe3cbbd7d5ca5e0cf87799fe221f621",
+   "ARCHIVAL_STATUS": "SANITIZED_DERIVED_COPY_COMMITTED",
+   "REPOSITORY_DERIVED_PATH_IF_ANY": "iclr2027_revision/provenance/dmech_tv_2026-08-29/DMECH_PRE_RUN_FREEZE.sanitized.md",
+   "DERIVED_SHA256_IF_ANY": "c87d3732c37f8711f91cc4d3ac42511e155ae2e2efe4da8f793e57f776114ddd",
+   "SANITIZED": "YES",
+   "REASON": "Derived summary; scientific values, counters, guards and hashes byte-invariant (residual-equality proof PASS)."
+  },
+  {
+   "LOGICAL_ARTIFACT_NAME": "dmech_environment.json",
+   "SOURCE_SHA256": "2c58ec166c6dff617d19e6cf3f03469010cefe9e8348dfa334e37a8779056a29",
+   "ARCHIVAL_STATUS": "SANITIZED_DERIVED_COPY_COMMITTED",
+   "REPOSITORY_DERIVED_PATH_IF_ANY": "iclr2027_revision/provenance/dmech_tv_2026-08-29/dmech_environment.sanitized.json",
+   "DERIVED_SHA256_IF_ANY": "02015b95de1e226a426e41170dbcd1b727e280aa52028256efe424d52bbae741",
+   "SANITIZED": "YES",
+   "REASON": "Derived summary; scientific values, counters, guards and hashes byte-invariant (residual-equality proof PASS)."
+  },
+  {
+   "LOGICAL_ARTIFACT_NAME": "dmech_execution.log",
+   "SOURCE_SHA256": "134f3a9efab06e1b3162716baee33d4a3aace05cff6fb1d41bec746240162846",
+   "ARCHIVAL_STATUS": "SANITIZED_DERIVED_COPY_COMMITTED",
+   "REPOSITORY_DERIVED_PATH_IF_ANY": "iclr2027_revision/provenance/dmech_tv_2026-08-29/dmech_execution.sanitized.log",
+   "DERIVED_SHA256_IF_ANY": "09d6f2cbc2f32d36fec01871c62e20f98a044ac226000b3e9389dd2b0a3d9173",
+   "SANITIZED": "YES",
+   "REASON": "Derived summary; scientific values, counters, guards and hashes byte-invariant (residual-equality proof PASS)."
+  },
+  {
+   "LOGICAL_ARTIFACT_NAME": "dmech_guard_tests.json",
+   "SOURCE_SHA256": "fa0f41efaa388753de656fb177eeb40eb7751cc86e89873e9be85debbdeaab92",
+   "ARCHIVAL_STATUS": "SANITIZED_DERIVED_COPY_COMMITTED",
+   "REPOSITORY_DERIVED_PATH_IF_ANY": "iclr2027_revision/provenance/dmech_tv_2026-08-29/dmech_guard_tests.sanitized.json",
+   "DERIVED_SHA256_IF_ANY": "843a1b1b2f627e7608abc56b22ce647251642b0ad3046a21586dc59564c17de8",
+   "SANITIZED": "YES",
+   "REASON": "Derived summary; scientific values, counters, guards and hashes byte-invariant (residual-equality proof PASS)."
+  },
+  {
+   "LOGICAL_ARTIFACT_NAME": "dmech_input_access_manifest.json",
+   "SOURCE_SHA256": "ffe86fa01351e9c603711f956f448c6cd86e95987c6cd1eb9da93da27108dae2",
+   "ARCHIVAL_STATUS": "SANITIZED_DERIVED_COPY_COMMITTED",
+   "REPOSITORY_DERIVED_PATH_IF_ANY": "iclr2027_revision/provenance/dmech_tv_2026-08-29/dmech_input_access_manifest.sanitized.json",
+   "DERIVED_SHA256_IF_ANY": "f7f445452d9fd93def2fbdf0e954287bb558e8d794da1f2531f7eab384192a71",
+   "SANITIZED": "YES",
+   "REASON": "Derived summary; scientific values, counters, guards and hashes byte-invariant (residual-equality proof PASS)."
+  },
+  {
+   "LOGICAL_ARTIFACT_NAME": "dmech_resolved_paths.json",
+   "SOURCE_SHA256": "236b4f5b239e9135b972f885ba8b3ccdcf432805d2c0ec16547843cadd66cf2f",
+   "ARCHIVAL_STATUS": "HASH_ONLY_EXTERNAL",
+   "REPOSITORY_DERIVED_PATH_IF_ANY": null,
+   "DERIVED_SHA256_IF_ANY": null,
+   "SANITIZED": "N/A",
+   "REASON": "Contains machine-specific absolute paths. A11 \u00a722 requires it to remain external-only; the repository records only its digest."
+  },
+  {
+   "LOGICAL_ARTIFACT_NAME": "dmech_results.csv",
+   "SOURCE_SHA256": "fc9d5034520ebfdb02f0eda71f04f8130a8545f63744b76228175b0613a5d808",
+   "ARCHIVAL_STATUS": "SANITIZED_DERIVED_COPY_COMMITTED",
+   "REPOSITORY_DERIVED_PATH_IF_ANY": "iclr2027_revision/provenance/dmech_tv_2026-08-29/dmech_results.csv",
+   "DERIVED_SHA256_IF_ANY": "fc9d5034520ebfdb02f0eda71f04f8130a8545f63744b76228175b0613a5d808",
+   "SANITIZED": "NO",
+   "REASON": "Derived summary; scientific values, counters, guards and hashes byte-invariant (residual-equality proof PASS)."
+  },
+  {
+   "LOGICAL_ARTIFACT_NAME": "dmech_results.json",
+   "SOURCE_SHA256": "3e0975c54ce0cdc6ab5a6f8aadd5f63693ea45fdbfa97194ddf028b0a94f9dc4",
+   "ARCHIVAL_STATUS": "SANITIZED_DERIVED_COPY_COMMITTED",
+   "REPOSITORY_DERIVED_PATH_IF_ANY": "iclr2027_revision/provenance/dmech_tv_2026-08-29/dmech_results.json",
+   "DERIVED_SHA256_IF_ANY": "3e0975c54ce0cdc6ab5a6f8aadd5f63693ea45fdbfa97194ddf028b0a94f9dc4",
+   "SANITIZED": "NO",
+   "REASON": "Derived summary; scientific values, counters, guards and hashes byte-invariant (residual-equality proof PASS)."
+  },
+  {
+   "LOGICAL_ARTIFACT_NAME": "dmech_run_manifest.json",
+   "SOURCE_SHA256": "e57481e794ebf19fd15fa5f15a5521a08d98be09beddf38e635a483f7d639795",
+   "ARCHIVAL_STATUS": "SANITIZED_DERIVED_COPY_COMMITTED",
+   "REPOSITORY_DERIVED_PATH_IF_ANY": "iclr2027_revision/provenance/dmech_tv_2026-08-29/dmech_run_manifest.sanitized.json",
+   "DERIVED_SHA256_IF_ANY": "39aec058cb5726f6503b751b73977f1e88710729902d337377ee202ae6ae07c2",
+   "SANITIZED": "YES",
+   "REASON": "Derived summary; scientific values, counters, guards and hashes byte-invariant (residual-equality proof PASS)."
+  },
+  {
+   "LOGICAL_ARTIFACT_NAME": "dmech_sanitization_exact_diff.txt",
+   "SOURCE_SHA256": "8ad41dfa30831be5701bcf08b78f5424aa4b62d19a382f6f6ad83401612cbe0c",
+   "ARCHIVAL_STATUS": "HASH_ONLY_EXTERNAL",
+   "REPOSITORY_DERIVED_PATH_IF_ANY": null,
+   "DERIVED_SHA256_IF_ANY": null,
+   "SANITIZED": "N/A",
+   "REASON": "Holds the exact pre-sanitization identifying strings; external-only by design so the repository never carries them."
+  },
+  {
+   "LOGICAL_ARTIFACT_NAME": "run_dmech_tv.py (executed runner)",
+   "SOURCE_SHA256": "dac0690af2c73bf51d01145ea6bdf8afbe20adc0fa1b8fb6c00f5aa771a04d79",
+   "ARCHIVAL_STATUS": "RUNNER_COMMITTED_VERBATIM",
+   "REPOSITORY_DERIVED_PATH_IF_ANY": "iclr2027_revision/pipeline/run_dmech_tv.py",
+   "DERIVED_SHA256_IF_ANY": "dac0690af2c73bf51d01145ea6bdf8afbe20adc0fa1b8fb6c00f5aa771a04d79",
+   "SANITIZED": "NO",
+   "REASON": "Provenance-bearing execution bytes attested by the pre-run freeze. Sanitizing would destroy the byte-level link to DMECH_RUNNER_SHA256; identifying paths are logged as release-review items."
+  }
+ ]
+}

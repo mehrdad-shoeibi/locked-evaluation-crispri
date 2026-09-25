@@ -1,0 +1,21 @@
+{
+  "utc_freeze_timestamp": "2026-08-29T00:27:16Z",
+  "minispec_path": "/home/mehrdad/Desktop/ICLR2027_2026-08-26/iclr2027_revision/provenance/37_29_reconstruction_minispec.md",
+  "minispec_sha256": "ea20d6016818a8a7ac984cac91146f14f2aa82115ebd8289a54477fac8a43b3e",
+  "script_path": "/home/mehrdad/Desktop/ICLR2027_2026-08-26/iclr2027_revision/provenance/reconstruct_nonoverlap_counts.py",
+  "script_sha256": "9ed9deb1bd9123af4b136fd658c737f110f50102b9cca165e1e1ead548ee1ca9",
+  "expected_historical_validation": {
+    "RPE1": {"constructs": 43, "genes": 42},
+    "K562_essential": {"constructs": 33, "genes": 32}
+  },
+  "expected_historical_counterfactual": {
+    "RPE1": 37,
+    "K562_essential": 29
+  },
+  "historical_normalization_rule_summary": "Category strings as stored, bytes decoded where necessary; membership by exact Python string equality; no whitespace stripping; no case normalization; no alias or synonym mapping; no Ensembl remapping; no punctuation normalization. Non-targeting removed by exact case-sensitive equality to the single literal 'non-targeting', applied during set construction. Counting unit: constructs; constructs not de-duplicated by gene.",
+  "one_shot_execution_count_authorized": 1,
+  "external_identifier_columns_permitted": ["construct", "target_symbol"],
+  "external_outcome_columns_permitted": "NONE",
+  "model_execution_permitted": "NO",
+  "gpu_permitted": "NO"
+}

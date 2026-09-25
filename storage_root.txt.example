@@ -1,0 +1,4 @@
+# Absolute path to THIS project copy's independent storage root (the *_DATA tree).
+# iga_paths.py reads IGA_STORAGE_ROOT env var first, then this file. No SSD fallback.
+# Copy this file to `storage_root.txt` (gitignored) and set the correct path, e.g.:
+/data/Casl_Storage/Mehrdad/ICLR2027_2026-08-26_DATA
